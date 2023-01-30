@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  basePath: '.',
   compress: true,
   cleanDistDir: true,
   eslint: {
@@ -11,6 +10,13 @@ const nextConfig = {
   images: {
     formats: ['image/avif', 'image/webp'],
     domains: ['']
+  },
+  outputFileTracing: true,
+  compiler: {
+    removeConsole: true
+  },
+  amp: {
+    canonicalBase: 'https://helpafrica.netlify.app/'
   }
 }
 

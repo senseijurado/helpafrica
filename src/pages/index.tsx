@@ -8,7 +8,7 @@ export default function Home() {
     <>
 
       <Head>
-        <title></title>
+        <title>Help Africa - ONG</title>
       </Head>
 
       {/* HTML CONTENT MAIN TAG */ }
