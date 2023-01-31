@@ -1,17 +1,11 @@
-
-
-export interface QuestionProps
-{
+export interface QuestionProps {
     id: number;
     question?: string;
     answer?: string;
 }
 
-export let FAQS: QuestionProps[] = [
-    {
+export let FAQS: QuestionProps[] = [{
         id: 1,
         question: '',
         answer: ''
-    }
-]
-
+    },]
