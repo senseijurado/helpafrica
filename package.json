@@ -1,31 +1,47 @@
 {
-  "name": "08-helpafrica-nextjs",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint src/**/*.{ts,js,tsx,jsx} --fix"
-  },
-  "dependencies": {
-    "@next/font": "13.1.6",
-    "@types/node": "18.11.18",
-    "@types/react": "18.0.27",
-    "@types/react-dom": "18.0.10",
-    "eslint": "8.33.0",
-    "eslint-config-next": "13.1.6",
-    "next": "13.1.6",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "4.9.4"
-  },
-  "devDependencies": {
-    "@nextui-org/react": "^1.0.0-beta.12",
-    "autoprefixer": "^10.4.13",
-    "next-themes": "^0.2.1",
-    "postcss": "^8.4.21",
-    "prettier-plugin-tailwindcss": "^0.2.2",
-    "tailwindcss": "^3.2.4"
-  }
+	"name": "08-helpafrica-nextjs",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint src/**/*.{ts,js,tsx,jsx} --fix"
+	},
+	"release": {
+		"branches": [
+			"main",
+			"next",
+			"dev"
+		]
+	},
+	"homepage": "https://github.com/senseijurado/07-helpafrica-astro",
+	"dependencies": {
+		"@next/font": "13.1.6",
+		"@types/node": "18.11.18",
+		"@types/react": "18.0.27",
+		"@types/react-dom": "18.0.10",
+		"eslint": "8.33.0",
+		"eslint-config-next": "13.1.6",
+		"next": "13.1.6",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"typescript": "4.9.4"
+	},
+	"devDependencies": {
+		"@nextui-org/react": "^1.0.0-beta.12",
+		"autoprefixer": "^10.4.13",
+		"next-themes": "^0.2.1",
+		"postcss": "^8.4.21",
+		"prettier-plugin-tailwindcss": "^0.2.2",
+		"tailwindcss": "^3.2.4"
+	},
+	"plugins": [
+		"@semantic-release/commit-analyzer",
+		"@semantic-release/release-notes-generator",
+		"@semantic-release/changelog",
+		"@semantic-release/github",
+		"@semantic-release/npm",
+		"@semantic-release/git"
+	]
 }
