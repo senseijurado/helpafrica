@@ -26,11 +26,13 @@
 		"next": "13.1.6",
 		"react": "18.2.0",
 		"react-dom": "18.2.0",
-		"typescript": "4.9.4"
+		"typescript": "4.9.5"
 	},
 	"devDependencies": {
+		"@heroicons/react": "^2.0.14",
 		"@nextui-org/react": "^1.0.0-beta.12",
 		"autoprefixer": "^10.4.13",
+		"heroicons": "^2.0.14",
 		"next-themes": "^0.2.1",
 		"postcss": "^8.4.21",
 		"prettier-plugin-tailwindcss": "^0.2.2",

@@ -1,6 +1,41 @@
+import { useEffect, useState } from "react";
+
 import Head from "next/head";
+import { useTheme } from "next-themes";
+// import { MoonIcon, SunIcon } from "heroicons";
 
 export default function HomePage() {
+	const { setTheme, systemTheme, theme } = useTheme();
+
+	const [mounted, setMounted] = useState(false);
+
+	useEffect(() => {
+		setMounted(true);
+	}, []);
+
+	// const onThemeSwitcher = () => {
+	// 	if (!mounted) return null;
+	// 	const setCurrentTheme = theme === "systemTheme" ? systemTheme : theme;
+
+	// 	if (setCurrentTheme === "dark") {
+	// 		return (
+	// 			<SunIcon
+	// 				className='w-7 h-7'
+	// 				role='button'
+	// 				onClick={() => setTheme("light")}
+	// 			/>
+	// 		);
+	// 	} else {
+	// 		return (
+	// 			<MoonIcon
+	// 				className='w-7 h-7'
+	// 				role='button'
+	// 				onClick={() => setTheme("dark")}
+	// 			/>
+	// 		);
+	// 	}
+	// };
+
 	return (
 		<>
 			<Head>
@@ -14,6 +49,8 @@ export default function HomePage() {
 			{/* HTML CONTENT MAIN TAG */}
 			<main className='bg-charivi-200'>
 				<h1>Help Africa Homepage</h1>
+
+				{/* {onThemeSwitcher()} */}
 			</main>
 		</>
 	);

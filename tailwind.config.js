@@ -1,14 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: ["./src/**/*.{tsx,ts,js,jsx,html,svelte,astro}"],
+	content: [
+		"./src/**/*.{tsx,ts,js,jsx,html,svelte,astro}",
+		"./components/**/*.{html,js,ts,jsx,tsx}",
+		"./pages/**/*.{html,js,ts,jsx,tsx}",
+	],
 
 	presets: [],
 	darkMode: "class",
-	corePlugins: ["accentColor", "appearance", "accessibility"],
-	important: true,
-	experimental: true,
 	theme: {
-		content: ["./src/**/*.{tsx,ts,js,jsx,html}"],
 		screens: {
 			sm: "640px",
 			md: "768px",

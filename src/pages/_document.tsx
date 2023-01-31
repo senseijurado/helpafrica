@@ -12,7 +12,7 @@ export default function Document() {
 				<link rel='icon' href='/favicon.ico' />
 				<title> Help Africa </title>
 			</Head>
-			<body className='bg-indigo-500'>
+			<body>
 				<Main />
 				<NextScript />
 			</body>
