@@ -1,11 +1,20 @@
 {
-    "semi": true,
-    "arrowParens": "always",
-    "bracketSameLine": false,
-    "bracketSpacing": true,
-    "singleQuote": false,
+    "arrowParens": "avoid",
+    "useTabs": true,
     "tabWidth": 4,
-    "singleAttributePerLine": false,
+    "bracketSameLine": true,
+    "bracketSpacing": true,
+    "cursorOffset": -1,
+    "editorconfig": false,
+    "endOfLine": "lf",
     "jsxSingleQuote": true,
-    "useTabs": true
+    "htmlWhitespaceSensitivity": "css",
+    "plugins": [
+
+    ],
+    "embeddedLanguageFormatting": "auto",
+    "proseWrap": "always",
+    "quoteProps": "consistent",
+    "singleAttributePerLine": true,
+    "singleQuote": true
 }

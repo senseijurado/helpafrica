@@ -1,30 +1,22 @@
-import { Header } from "@/components";
+import { FC } from "react";
+
 import Head from "next/head";
-import React from "react";
 
 export interface Props {
-	metaTitle: string;
-	metaDescription?: string;
-	children?: React.ReactNode;
+	children: React.ReactNode;
+	pageDescription?: string;
+	pageTitle: string;
 }
 
-export default function Layout({
-	children,
-	metaTitle = "Help Africa ONG",
-	metaDescription = "ONG para ayuda a otras organizations con estructura enfocada en el hambre y los mas desfavorecidos",
-}: Props) {
+export const Layout: FC<Props> = ({ pageTitle, pageDescription, children }) => {
 	return (
 		<>
 			<Head>
-				<meta name='description' content={metaDescription} />
-				<title>{metaTitle}</title>
+				<meta name='description' content={` ${pageDescription} `} />
+				<title>{pageTitle}</title>
 			</Head>
 
-			<Header />
-
-			<main className='d-grid place-items-center'>{children}</main>
-
-			<footer> Footer goes here</footer>
+			{children}
 		</>
 	);
-}
+};
