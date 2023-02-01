@@ -2,7 +2,7 @@
     "arrowParens": "avoid",
     "useTabs": true,
     "tabWidth": 4,
-    "bracketSameLine": true,
+    "bracketSameLine": false,
     "bracketSpacing": true,
     "cursorOffset": -1,
     "editorconfig": false,
@@ -12,9 +12,9 @@
     "plugins": [
 
     ],
-    "embeddedLanguageFormatting": "auto",
     "proseWrap": "always",
-    "quoteProps": "consistent",
-    "singleAttributePerLine": true,
-    "singleQuote": true
+    "quoteProps": "as-needed",
+    "singleAttributePerLine": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
 }
