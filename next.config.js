@@ -17,6 +17,13 @@ const nextConfig = {
 		domains: [""],
 	},
 	swcMinify: false,
+	distDir: "build",
+	devIndicators: {
+		buildActivity: true,
+		buildActivityPosition: "top-left",
+	},
+	cleanDistDir: true,
+	excludeDefaultMomentLocales: true,
 };
 
 module.exports = nextConfig;

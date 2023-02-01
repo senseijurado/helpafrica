@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
-import Head from "next/head";
 import { Header } from "@/components";
+import Head from "next/head";
+import React from "react";
 
 export interface Props {
 	metaTitle: string;
@@ -10,17 +10,14 @@ export interface Props {
 
 export default function Layout({
 	children,
-	metaTitle,
-	metaDescription,
+	metaTitle = "Help Africa ONG",
+	metaDescription = "ONG para ayuda a otras organizations con estructura enfocada en el hambre y los mas desfavorecidos",
 }: Props) {
 	return (
 		<>
 			<Head>
-				<meta
-					name='description'
-					content={metaDescription || "Layout Principal base"}
-				/>
-				<title>{metaTitle} | Layout Title </title>
+				<meta name='description' content={metaDescription} />
+				<title>{metaTitle}</title>
 			</Head>
 
 			<Header />

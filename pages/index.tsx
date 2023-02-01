@@ -1,12 +1,14 @@
-import Layout from "./index";
+import Layout from "./_layout";
 
-export function HomePage() {
+export interface HomeProps {
+	metaTitle: string;
+	metaDescription?: string;
+}
+
+export function HomePage({ metaTitle, metaDescription }: HomeProps) {
 	return (
 		<>
-			<Layout
-				metaTitle='Help Africa Homepage'
-				metaDescription='This is a description of my Homepage in HelpAfrica ONG'
-			>
+			<Layout metaTitle='Homepage' metaDescription='Description Homepage'>
 				<h1>Homepage Content</h1>
 			</Layout>
 		</>
