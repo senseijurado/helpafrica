@@ -1,8 +1,6 @@
-// REACT IMPORTS:
 import React, { useEffect, useState } from "react";
-
-// * NEXT IMPORTS:
 import Head from "next/head";
+import { Header } from "@/components";
 
 export interface Props {
 	metaTitle: string;
@@ -25,9 +23,9 @@ export default function Layout({
 				<title>{metaTitle} | Layout Title </title>
 			</Head>
 
-			<header>Header goes here</header>
+			<Header />
 
-			{children}
+			<main className='d-grid place-items-center'>{children}</main>
 
 			<footer> Footer goes here</footer>
 		</>

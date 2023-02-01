@@ -1,31 +1,16 @@
-// REACT IMPORTS:
-import React, { useEffect, useState } from "react";
+import Layout from "./index";
 
-// * NEXT IMPORTS:
-import Head from "next/head";
-
-// ? NEXT LIBS IMPORTS:
-
-// COMPONENTS IMPORTS:
-import Layout from "@/pages/_layout";
-
-// EXTERNAL LIBS IMPORTS:
-
-// HOOKS IMPORTS:
-
-// STYLES IMPORTS:
-
-export default function HomePage() {
+export function HomePage() {
 	return (
 		<>
 			<Layout
 				metaTitle='Help Africa Homepage'
 				metaDescription='This is a description of my Homepage in HelpAfrica ONG'
 			>
-				<main className='d-grid place-items-center'>
-					<h1 className='text-white'>Desde Homepage</h1>
-				</main>
+				<h1>Homepage Content</h1>
 			</Layout>
 		</>
 	);
 }
+
+export default HomePage;

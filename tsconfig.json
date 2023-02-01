@@ -23,7 +23,8 @@
 			"@/helpers/*": ["./helpers/*"],
 			"@/styles/*": ["./styles/*"],
 			"@/themes/*": ["./themes/*"],
-			"@/data/*": ["./data/*"]
+			"@/data/*": ["./data/*"],
+			"@/interfaces/*": ["./interfaces/*"]
 		}
 	},
 	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
