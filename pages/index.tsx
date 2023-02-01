@@ -22,7 +22,7 @@ export default function HomePage() {
 				metaTitle='Help Africa Homepage'
 				metaDescription='This is a description of my Homepage in HelpAfrica ONG'
 			>
-				<main className='min-h-screen bg-second-200 text-white'>
+				<main className='d-grid place-items-center'>
 					<h1 className='text-white'>Desde Homepage</h1>
 				</main>
 			</Layout>

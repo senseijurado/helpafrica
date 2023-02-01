@@ -1,3 +1,21 @@
 @import "./_base.css";
 @import "./_colors.css";
 @import "./_typography.css";
+
+/* UTILITIES */
+
+.d-grid {
+	display: grid;
+}
+
+.place-items-center {
+	place-items: center center;
+}
+
+.place-content-center {
+	place-content: center center;
+}
+
+.grid-row-screen {
+	grid-template-rows: auto 1fr auto;
+}

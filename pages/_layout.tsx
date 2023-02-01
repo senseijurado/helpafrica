@@ -26,7 +26,8 @@ export default function Layout({
 			</Head>
 
 			<header>Header goes here</header>
-			<main className='text-white'>{children}</main>
+
+			{children}
 
 			<footer> Footer goes here</footer>
 		</>

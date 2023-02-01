@@ -34,9 +34,8 @@
 		--orange: orange;
 		--success: green;
 		--white: white;
-		/* 
-		background-color: var(--gray-600);
-		color: var(--gray-100); */
+
+		width: 100vw;
 	}
 
 	/* html,
@@ -102,11 +101,12 @@ body {
 
 body {
 	font-size: 2rem;
-	/* Center all elements display: grid */
 	display: grid;
+	grid-template-columns: 100vw;
 	grid-template-rows: auto 1fr auto;
 	place-content: center center;
-	height: 100vh;
+
+	text-align: center;
 }
 
 a {
@@ -115,27 +115,21 @@ a {
 }
 
 header,
-footer,
-main {
+footer {
 	display: grid;
-	place-content: center;
-	overflow: auto;
-	width: 100vh;
-	padding-block: 10vh;
+	place-content: center center;
+	padding-block: 3rem;
+	box-sizing: border-box;
 }
 
-header {
-	grid-area: header;
-	padding: 0;
-	background-color: crimson;
+main {
+	margin: 0 auto;
+	background-color: var(--amber);
+	min-height: 100vh;
 }
 
 footer {
-	grid-area: footer;
-}
-
-main {
-	grid-area: main;
+	/* background-color: crimson; */
 }
 
 h1,

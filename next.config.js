@@ -17,6 +17,9 @@ const nextConfig = {
 		domains: [""],
 	},
 	swcMinify: false,
+	experimental: {
+		forceSwcTransforms: true,
+	},
 };
 
 module.exports = nextConfig;
