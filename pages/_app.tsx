@@ -10,7 +10,8 @@ export default function App({ Component, pageProps }: AppProps) {
 		<ThemeProvider
 			defaultTheme={darkTheme}
 			enableSystem={true}
-			attribute='class'>
+			attribute='class'
+		>
 			<Component {...pageProps} />
 		</ThemeProvider>
 	);

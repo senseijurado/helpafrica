@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* DARK THEME WITH MEDIA */
+@media (prefers-color-scheme: dark) {
+	:root {
+		color-scheme: dark !important;
+
+		--primary-100: #e88b89;
+		--primary-200: #cb2a27;
+		--primary-300: #751817;
+		--second-100: #445fdf;
+		--second-200: #182c8b;
+		--second-300: #091034;
+		--lime-100: #e4f87c;
+		--lime-200: #c4e90c;
+		--lime-300: #728807;
+		--purple-100: #cfc6ec;
+		--purple-200: #7f66cc;
+		--purple-300: #4c3399;
+		--gray-100: whitesmoke;
+		--gray-200: lightgray;
+		--gray-300: #737d8c;
+		--gray-400: #444444;
+		--gray-500: #26282c;
+		--gray-600: #1a1a1a;
+		--alpha: transparent;
+		--amber: goldenrod;
+		--black: black;
+		--current: currentColor;
+		--error: crimson;
+		--indigo: indigo;
+		--orange: orange;
+		--success: green;
+		--white: white;
+		/* 
+		background-color: var(--gray-600);
+		color: var(--gray-100); */
+	}
+
+	/* html,
+	body {
+		color-scheme: dark !important;
+		color: var(--white);
+	} */
+
+	.dark,
+	[data-theme="darktheme"] {
+		background-color: var(--gray-600);
+	}
+}
+
+/* NORMAL LIGHT THEME VARS: */
+:root:not([data-theme="darktheme"], .dark) {
+	color-scheme: light;
+	/* Colors  */
+	--primary-100: #e88b89;
+	--primary-200: #cb2a27;
+	--primary-300: #751817;
+	--second-100: #445fdf;
+	--second-200: #182c8b;
+	--second-300: #091034;
+	--lime-100: #e4f87c;
+	--lime-200: #c4e90c;
+	--lime-300: #728807;
+	--purple-100: #cfc6ec;
+	--purple-200: #7f66cc;
+	--purple-300: #4c3399;
+	--gray-100: whitesmoke;
+	--gray-200: lightgray;
+	--gray-300: #737d8c;
+	--gray-400: #444444;
+	--gray-500: #26282c;
+	--gray-600: #1a1a1a;
+	--alpha: transparent;
+	--amber: goldenrod;
+	--black: black;
+	--current: currentColor;
+	--error: crimson;
+	--indigo: indigo;
+	--orange: orange;
+	--success: green;
+	--white: white;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 62.5%;
+	font-weight: 300;
+	font-family: sans-serif;
+	overflow-x: hidden;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+body {
+	font-size: 2rem;
+	/* Center all elements display: grid */
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	place-content: center center;
+	height: 100vh;
+}
+
+a {
+	color: currentColor;
+	text-decoration: none;
+}
+
+header,
+footer,
+main {
+	display: grid;
+	place-content: center;
+	overflow: auto;
+	width: 100vh;
+	padding-block: 10vh;
+}
+
+header {
+	grid-area: header;
+	padding: 0;
+	background-color: crimson;
+}
+
+footer {
+	grid-area: footer;
+}
+
+main {
+	grid-area: main;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-weight: 500;
+}

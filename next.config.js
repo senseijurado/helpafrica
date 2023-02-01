@@ -1,23 +1,22 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  compress: true,
-  cleanDistDir: true,
-  eslint: {
-    ignoreDuringBuilds: true,
-    dirs: ['./src/**/*.{tsx,ts,jsx,js}',]
-  },
-  images: {
-    formats: ['image/avif', 'image/webp'],
-    domains: ['']
-  },
-  outputFileTracing: true,
-  compiler: {
-    removeConsole: true
-  },
-  amp: {
-    canonicalBase: 'https://helpafrica.netlify.app/'
-  }
-}
+	reactStrictMode: true,
+	eslint: {
+		ignoreDuringBuilds: true,
+		dirs: [
+			"./pages/**/*.{tsx,ts,jsx,js}",
+			"./components/**/*.{tsx,ts,jsx,js}",
+			"./helpers/**/*.{tsx,ts,jsx,js}",
+			"./hooks/**/*.{tsx,ts,jsx,js}",
+			"./theme/**/*.{tsx,ts,jsx,js}",
+			"./data/**/*.{tsx,ts,jsx,js}",
+		],
+	},
+	images: {
+		formats: ["image/avif", "image/webp"],
+		domains: [""],
+	},
+	swcMinify: false,
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
