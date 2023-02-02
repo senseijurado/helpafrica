@@ -1,6 +1,4 @@
-import React from "react";
-
-import { Navigation } from "@/components";
+import { Navigation } from './Navigation';
 
 export function Header() {
 	return (

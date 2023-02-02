@@ -2,18 +2,11 @@
     "arrowParens": "avoid",
     "useTabs": true,
     "tabWidth": 4,
-    "bracketSameLine": false,
+    "bracketSameLine": true,
     "bracketSpacing": true,
-    "cursorOffset": -1,
-    "editorconfig": false,
     "endOfLine": "lf",
     "jsxSingleQuote": true,
     "htmlWhitespaceSensitivity": "css",
-    "plugins": [
-
-    ],
-    "proseWrap": "always",
-    "quoteProps": "as-needed",
     "singleAttributePerLine": false,
     "singleQuote": true,
     "trailingComma": "es5"

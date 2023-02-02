@@ -4,26 +4,20 @@ const nextConfig = {
 	eslint: {
 		ignoreDuringBuilds: true,
 		dirs: [
-			"./pages/**/*.{tsx,ts,jsx,js}",
-			"./components/**/*.{tsx,ts,jsx,js}",
-			"./helpers/**/*.{tsx,ts,jsx,js}",
-			"./hooks/**/*.{tsx,ts,jsx,js}",
-			"./theme/**/*.{tsx,ts,jsx,js}",
-			"./data/**/*.{tsx,ts,jsx,js}",
+			'./pages/**/*.{tsx,ts,jsx,js}',
+			'./components/**/*.{tsx,ts,jsx,js}',
+			'./helpers/**/*.{tsx,ts,jsx,js}',
+			'./hooks/**/*.{tsx,ts,jsx,js}',
+			'./theme/**/*.{tsx,ts,jsx,js}',
+			'./data/**/*.{tsx,ts,jsx,js}',
 		],
 	},
 	images: {
-		formats: ["image/avif", "image/webp"],
-		domains: [""],
+		formats: ['image/avif', 'image/webp'],
+		domains: [''],
 	},
 	swcMinify: false,
-	distDir: "build",
-	devIndicators: {
-		buildActivity: true,
-		buildActivityPosition: "top-left",
-	},
-	cleanDistDir: true,
-	excludeDefaultMomentLocales: true,
+	distDir: 'build',
 };
 
 module.exports = nextConfig;

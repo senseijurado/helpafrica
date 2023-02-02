@@ -51,7 +51,7 @@
 }
 
 /* NORMAL LIGHT THEME VARS: */
-:root:not([data-theme="darktheme"], .dark) {
+:root:not([data-theme="dark-theme"], .darkTheme) {
 	color-scheme: light;
 	/* Colors  */
 	--primary-100: #e88b89;
@@ -126,10 +126,6 @@ main {
 	margin: 0 auto;
 	background-color: var(--amber);
 	min-height: 100vh;
-}
-
-footer {
-	/* background-color: crimson; */
 }
 
 h1,

@@ -1,6 +1,3 @@
-// REACT IMPORTS:
-
-// * NEXT IMPORTS:
 import { Head, Html, Main, NextScript } from 'next/document';
 
 export const Document = () => {

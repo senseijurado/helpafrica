@@ -1,6 +1,6 @@
-@import "./_base.css";
-@import "./_colors.css";
-@import "./_typography.css";
+@import "./base.css";
+@import "./typography.css";
+@import "./colors.css";
 
 /* UTILITIES */
 
