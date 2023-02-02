@@ -19,10 +19,15 @@ Proyecto realizado en conjunto con [Pedro Garcia Roman](http://pedrogarcia.gq/)
 
 Define a subscription and fixed price to donations:
 
-| NAME       | BASE PRICE | MONTHLY | YEARLY   | PRODUCERS | ONG HELPERS | ONG PARTNERS | TOTALS   |
-| ---------- | ---------- | ------- | -------- | --------- | ----------- | ------------ | -------- |
-| TEAM PLAN  | $64        | $77.44  | $929.28  | $15.48    | $123.90     | $108.41      | $286.528 |
-| HUMAN PLAN | $114       | $137.94 | $1655.28 | $96.55    |             |              |          |
+| PLAN NAME    | MONTHLY | YEARLY  | 30% PRODUCERS | 30% SOCIOS | 40% ONG HELPS |
+| ------------ | ------- | ------- | ------------- | ---------- | ------------- |
+| AFRICA BASIC | €77.44  | €309.77 | €11.616       | €23.232    | €30.976       |
+| AFRICA HUMAN | €137.94 | €551.76 | €20.691       | €41.382    | €55.176       |
+| AFRICA DEEP  | €194.81 | €779.24 | €29.2215      | €58.443    | €77.924       |
+| AFRICA LIVE  | €232.32 | €929.28 | €34.848       | €69.696    | €92.928       |
+
+
+* [👉 VIEW MORE ALL DETAILS PLANS:](./docs/PRICINGS.md)
 
 ---
 
