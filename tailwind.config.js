@@ -11,6 +11,7 @@ module.exports = {
 	],
 	corePlugins: ['accentColor', 'backgroundColor', 'textColor'],
 	darkMode: 'class',
+
 	theme: {
 		extend: {
 			colors: ({ colors }) => ({
@@ -71,6 +72,7 @@ module.exports = {
 				indigo: '#2a0891',
 				success: colors.green,
 			}),
+
 			fontFamily: {
 				body: 'Inter, Helvetica, sans-serif',
 				heading: 'Georgia, serif',

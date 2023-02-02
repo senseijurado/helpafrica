@@ -18,6 +18,8 @@
 	"homepage": "https://github.com/senseijurado/07-helpafrica-astro",
 	"dependencies": {
 		"@chakra-ui/react": "^2.4.9",
+		"@emotion/react": "^11.10.5",
+		"@emotion/styled": "^11.10.5",
 		"@next/font": "13.1.6",
 		"@types/node": "18.11.18",
 		"@types/react": "18.0.27",
@@ -25,6 +27,7 @@
 		"autoprefixer": "^10.4.13",
 		"eslint": "8.33.0",
 		"eslint-config-next": "13.1.6",
+		"framer-motion": "^9.0.1",
 		"next": "13.1.6",
 		"postcss": "^8.4.21",
 		"react": "18.2.0",

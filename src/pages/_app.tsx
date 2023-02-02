@@ -1,18 +1,14 @@
 import '@/styles/globals.css';
-import { ThemeProvider } from 'next-themes';
+import { darkTheme } from '@/themes';
+import { ChakraProvider } from '@chakra-ui/react';
 import { AppProps } from 'next/app';
 
-// import locals
-import { darkTheme } from '@/themes';
+export default function App({ Component, pageProps, router }: AppProps) {
+	console.log(router);
 
-export default function App({ Component, pageProps }: AppProps) {
 	return (
-		<ThemeProvider
-			defaultTheme={darkTheme}
-			enableSystem={true}
-			attribute='class'
-		>
+		<ChakraProvider resetCSS={true} theme={darkTheme}>
 			<Component {...pageProps} />
-		</ThemeProvider>
+		</ChakraProvider>
 	);
 }

@@ -1,6 +1,6 @@
-import { createTheme } from '@nextui-org/react';
+import { extendTheme } from '@chakra-ui/react';
 
-export const darkTheme = createTheme({
+export const darkTheme = extendTheme({
 	type: 'dark',
 	className: 'dark-theme',
 

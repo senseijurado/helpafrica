@@ -8,11 +8,10 @@ import { IndexProps as Props } from '@/interfaces';
 export const HomePage: NextPage<Props> = () => {
 	return (
 		<Layout
-			pageTitle='Homepage HelpAfrica ONG'
-			pageDescription='Description SEO applied'
-			themePWAColor='#ffff'
-			key={hashID()}
-		>
+			SITE_TITLE='Homepage HelpAfrica ONG'
+			SITE_DESCRIPTION='Description SEO applied'
+			THEME_COLOR='#ffff'
+			key={hashID()}>
 			<h1>Homepage HelpAfrica</h1>
 		</Layout>
 	);

@@ -6,8 +6,7 @@ export const Document = () => {
 			<Html
 				lang='en'
 				className='dark dark:bg-gray-500'
-				data-theme='darktheme'
-			>
+				data-theme='darktheme'>
 				<Head>
 					{/* GOOGLE FONTS IMPORT */}
 					<link
@@ -20,7 +19,7 @@ export const Document = () => {
 						rel='stylesheet'
 					/>
 				</Head>
-				<body className='min-h-screen'>
+				<body className='bg-primary-400  min-h-screen'>
 					<Main />
 
 					<NextScript />
