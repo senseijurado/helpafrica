@@ -1,11 +1,4 @@
----
-created_at: "January 17, 2023 12:26 AM"
-date_to_launch: "15/02/2023 → 28/02/2023"
-repoLink: "https://github.com/senseijurado/07-helpafrica-astro"
-status: "in-progress"
----
-
-# HELP AFRICA - ONG PROJECT:
+# HELP AFRICA - ONG PROJECT
 
 ## OVERVIEW:
 
