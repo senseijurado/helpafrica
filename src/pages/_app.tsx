@@ -1,12 +1,7 @@
 import '@/styles/globals.css'
-import { darkTheme } from '@/themes'
-import { ChakraProvider } from '@chakra-ui/react'
+import 'https://unpkg.com/open-props'
 import { AppProps } from 'next/app'
 
 export default function App({ Component, pageProps, router }: AppProps) {
-	return (
-		<ChakraProvider theme={darkTheme} resetCSS={true}>
-			<Component {...pageProps} />
-		</ChakraProvider>
-	)
+	return <Component {...pageProps} />
 }

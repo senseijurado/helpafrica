@@ -5,8 +5,12 @@ const nextConfig = {
 		formats: ['image/avif', 'image/webp'],
 		domains: [''],
 	},
+	eslint: {
+		ignoreDuringBuilds: true,
+	},
 	swcMinify: false,
 	distDir: 'dist',
+	cleanDistDir: true,
 }
 
 module.exports = nextConfig;

@@ -1,5 +1,4 @@
 import { uuid } from '@/utils/generator'
-import Link from 'next/link'
 import { FC } from 'react'
 
 export type Routes = {
@@ -22,19 +21,9 @@ export const NAVLINKS: Routes[] = [
 ]
 
 export const Navigation: FC = () => {
-	console.log(NAVLINKS)
-
 	return (
 		<>
-			<p>
-				{NAVLINKS.map(({ to, name, id }) => (
-					<li>
-						<Link key={id} passHref href={`${to}`}>
-							{name}
-						</Link>
-					</li>
-				))}
-			</p>
+			<nav>Navigation</nav>
 		</>
 	)
 }
