@@ -20,7 +20,7 @@
 			"@/assets/*": ["./src/assets/*"],
 			"@/components/*": ["./src/components/*"],
 			"@/data/*": ["./src/data/*"],
-			"@/helpers/*": ["./src/helpers/*"],
+			"@/utils/*": ["./src/utils/*"],
 			"@/hooks/*": ["./src/hooks/*"],
 			"@/interfaces/*": ["./src/interfaces/*"],
 			"@/pages/*": ["./src/pages/*"],

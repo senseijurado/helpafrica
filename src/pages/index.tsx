@@ -1,20 +1,12 @@
-import { NextPage } from 'next';
-// Pages
-import { Layout } from './Layout';
-// Components
-import { hashID } from '@/helpers';
-import { IndexProps as Props } from '@/interfaces';
+import { Layout } from '@/components/Layout'
+import { FC } from 'react'
 
-export const HomePage: NextPage<Props> = () => {
+export const HomePage: FC = () => {
 	return (
-		<Layout
-			SITE_TITLE='Homepage HelpAfrica ONG'
-			SITE_DESCRIPTION='Description SEO applied'
-			THEME_COLOR='#ffff'
-			key={hashID()}>
-			<h1>Homepage HelpAfrica</h1>
+		<Layout title='Homepage Africa' description='Welcome to HelpAfrica humanitary helps to ONG'>
+			<h1>HelpAfrica is right here...</h1>
 		</Layout>
-	);
-};
+	)
+}
 
-export default HomePage;
+export default HomePage

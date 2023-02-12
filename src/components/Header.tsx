@@ -4,10 +4,11 @@ export function Header() {
 	return (
 		<>
 			<header>
+				Navigation is here:
 				<Navigation />
 			</header>
 		</>
-	);
+	)
 }
 
 export default Header;

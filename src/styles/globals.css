@@ -1,6 +1,10 @@
+/* OPEN PROPS STYLES */
+@import "https://unpkg.com/open-props";
+/* 
+
 @import "./base.css";
 @import "./typography.css";
-@import "./colors.css";
+@import "./colors.css"; */
 
 /* UTILITIES */
 
