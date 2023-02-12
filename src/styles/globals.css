@@ -103,7 +103,7 @@ body {
 }
 
 body {
-	background-color: var(--stone-6)
+	background-color: var(--stone-6);
 	font-size: 2rem;
 	display: grid;
 	grid-template-columns: 100vw;
