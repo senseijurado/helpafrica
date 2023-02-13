@@ -1,9 +1,7 @@
-import { QuestionProps } from '@/interfaces';
-
-export let FAQS: QuestionProps[] = [
+export let FAQS = [
 	{
 		id: 1,
 		question: '',
 		answer: '',
 	},
-];
+]
