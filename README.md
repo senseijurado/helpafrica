@@ -1,4 +1,4 @@
-# Help Africa ONG:
+# Help Africa ONG
 
 -   [Overview](#overview)
 -   [Pricings](#pricings)
