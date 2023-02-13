@@ -1,10 +1,9 @@
-# PRICINGS: 
+# PRICINGS:
 
-
-* [AFRICA BASIC](#africa-basic-plan)
-* [AFRICA HUMAN](#africa-human-plan)
-* [AFRICA DEEP](#africa-deep-plan)
-* [AFRICA LIVE](#africa-live-plan)
+-   [AFRICA BASIC](#africa-basic-plan)
+-   [AFRICA HUMAN](#africa-human-plan)
+-   [AFRICA DEEP](#africa-deep-plan)
+-   [AFRICA LIVE](#africa-live-plan)
 
 ---
 
@@ -14,75 +13,72 @@
 4. TOTAL PROFITS PARTNERS (30%): **€192,75**
 5. TOTAL PROFITS ONG INNER (40%): **€257,00**
 
-All *totals prices* include the added of all transactions plans columns: 
+All _totals prices_ include the added of all transactions plans columns:
 
-
-## AFRICA BASIC PLAN: 
+## AFRICA BASIC PLAN:
 
 This is de most economic basic plan of all:
 
-* **Features and Profits:**
-    * Help to buy humans resources.
-    * Ayudar para las personas desfavorecidas cercanas.
-    * Plan de reinserción laboral y economica en paises Africanos
-    * Plan de ayudas para las personas y refugiados en situacion de pobreza en España y Europa.
-    * Recaudo para los productores: **30% / 2 = 15%** en total.
-    * Recaudo para ONG asociadas del **30%** en total.
-    * Recaudo para ONG propia y ayudas del **40%**  
+-   **Features and Profits:**
+    -   Help to buy humans resources.
+    -   Ayudar para las personas desfavorecidas cercanas.
+    -   Plan de reinserción laboral y economica en paises Africanos
+    -   Plan de ayudas para las personas y refugiados en situacion de pobreza en España y Europa.
+    -   Recaudo para los productores: **30% / 2 = 15%** en total.
+    -   Recaudo para ONG asociadas del **30%** en total.
+    -   Recaudo para ONG propia y ayudas del **40%**
 
-[👆 BACK TOP](#pricings) 
+[👆 BACK TOP](#pricings)
 
 ---
 
-## AFRICA HUMAN PLAN: 
+## AFRICA HUMAN PLAN:
 
 Include all features of previously Plan:
 
-* **Features and Profits:**
-    * Help to buy humans resources.
-    * Ayudar para las personas desfavorecidas cercanas.
-    * Plan de reinserción laboral y economica en paises Africanos
-    * Plan de ayudas para las personas y refugiados en situacion de pobreza en España y Europa.
-    * Recaudo para los productores: **30% / 2 = 15%** en total.
-    * Recaudo para ONG asociadas del **30%** en total.
-    * Recaudo para ONG propia y ayudas del **40%**
+-   **Features and Profits:**
+    -   Help to buy humans resources.
+    -   Ayudar para las personas desfavorecidas cercanas.
+    -   Plan de reinserción laboral y economica en paises Africanos
+    -   Plan de ayudas para las personas y refugiados en situacion de pobreza en España y Europa.
+    -   Recaudo para los productores: **30% / 2 = 15%** en total.
+    -   Recaudo para ONG asociadas del **30%** en total.
+    -   Recaudo para ONG propia y ayudas del **40%**
 
-[👆 BACK TOP](#pricings) 
-
+[👆 BACK TOP](#pricings)
 
 ---
 
-## AFRICA DEEP PLAN: 
+## AFRICA DEEP PLAN:
 
 Include all features of _AFRICA HUMAN PLAN_:
 
-* **Features and Profits:**
-    * Help to buy humans resources.
-    * Ayudar para las personas desfavorecidas cercanas.
-    * Plan de reinserción laboral y economica en paises Africanos
-    * Plan de ayudas para las personas y refugiados en situacion de pobreza en España y Europa.
-    * Recaudo para los productores: **30% / 2 = 15%** en total.
-    * Recaudo para ONG asociadas del **30%** en total.
-    * Recaudo para ONG propia y ayudas del **40%**
+-   **Features and Profits:**
+    -   Help to buy humans resources.
+    -   Ayudar para las personas desfavorecidas cercanas.
+    -   Plan de reinserción laboral y economica en paises Africanos
+    -   Plan de ayudas para las personas y refugiados en situacion de pobreza en España y Europa.
+    -   Recaudo para los productores: **30% / 2 = 15%** en total.
+    -   Recaudo para ONG asociadas del **30%** en total.
+    -   Recaudo para ONG propia y ayudas del **40%**
 
-[👆 BACK TOP](#pricings) 
-
+[👆 BACK TOP](#pricings)
 
 ---
 
-## AFRICA LIVE PLAN: 
+## AFRICA LIVE PLAN:
 
 Include all features of _AFRICA DEEP PLAN_:
 
-* **Features and Profits:**
-    * Help to buy humans resources.
-    * Ayudar para las personas desfavorecidas cercanas.
-    * Plan de reinserción laboral y economica en paises Africanos
-    * Plan de ayudas para las personas y refugiados en situacion de pobreza en España y Europa.
-    * Recaudo para los productores: **30% / 2 = 15%** en total.
-    * Recaudo para ONG asociadas del **30%** en total.
-    * Recaudo para ONG propia y ayudas del **40%**
+-   **Features and Profits:**
+    -   Help to buy humans resources.
+    -   Ayudar para las personas desfavorecidas cercanas.
+    -   Plan de reinserción laboral y economica en paises Africanos
+    -   Plan de ayudas para las personas y refugiados en situacion de pobreza en España y Europa.
+    -   Recaudo para los productores: **30% / 2 = 15%** en total.
+    -   Recaudo para ONG asociadas del **30%** en total.
+    -   Recaudo para ONG propia y ayudas del **40%**
 
-[👆 BACK TOP](#pricings) 
+[👆 BACK TOP](#pricings)
 
 ---

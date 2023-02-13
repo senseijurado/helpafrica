@@ -49,10 +49,8 @@
 	background-color: var(--gray-600);
 }
 
-html,
-body {
+html:is(.dark, .dark-theme) {
 	color-scheme: dark !important;
-	color: var(--white);
 	padding: 0;
 	margin: 0;
 	font-size: 62.5%;
@@ -74,7 +72,8 @@ body {
 	padding: 5vh clamp(1rem, 5vw, 3rem) 1rem;
 	font-family: system-ui, sans-serif;
 	line-height: 1.5;
-	color: #222;
+	color: var(--stone-5);
+	background-image: var(--gradient-8), var(--accent-100);
 }
 
 body > * {

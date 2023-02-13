@@ -1,4 +1,4 @@
-import { Navigation } from './Navigation';
+import { Navigation } from './Navigation'
 
 export function Header() {
 	return (
@@ -11,4 +11,4 @@ export function Header() {
 	)
 }
 
-export default Header;
+export default Header

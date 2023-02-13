@@ -1,10 +1,10 @@
-import { Layout } from '@/components/Layout'
-import { FC } from 'react'
+import { Layout } from '@/components'
+import { NextPage } from 'next'
 
-export const HomePage: FC = () => {
+export const HomePage: NextPage = () => {
 	return (
-		<Layout title='Homepage Africa' description='Welcome to HelpAfrica humanitary helps to ONG'>
-			<h1>HelpAfrica is right here...</h1>
+		<Layout title='Home welcome to Africa' description='Welcome to HelpAfrica ONG our house...'>
+			<h1>Hello Africa, welcome World!</h1>
 		</Layout>
 	)
 }

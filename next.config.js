@@ -10,7 +10,6 @@ const nextConfig = {
 	},
 	swcMinify: false,
 	distDir: 'dist',
-	cleanDistDir: true,
 }
 
-module.exports = nextConfig;
+module.exports = nextConfig

@@ -19,8 +19,7 @@ Define a subscription and fixed price to donations:
 | AFRICA DEEP  | €194.81 | €779.24 | €29.221 / €19.48 | €58.443    | €77.924      |
 | AFRICA LIVE  | €232.32 | €929.28 | €34.848 / €23.23 | €69.696    | €92.928      |
 
-
-* [👉 VIEW MORE ALL DETAILS PLANS:](./docs/PRICINGS.md)
+-   [👉 VIEW MORE ALL DETAILS PLANS:](./docs/PRICINGS.md)
 
 ---
 
