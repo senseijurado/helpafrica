@@ -1,0 +1,9 @@
+{
+	"index": {
+		"title": "Homepage - proyect HelpAfrica"
+	},
+	"header": {
+		"info": "Follow Us: Email: yourmail@domain.com Phone: +5(88) 123-4567"
+	},
+	"navigation": ["Home", "About", "Events", "Causes", "Blog", "Pages", "Contact"]
+}

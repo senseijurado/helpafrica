@@ -1,42 +1,39 @@
-// Next: Next Auth and Next UI Libs:
-import { NextPage } from 'next'
-import Head from 'next/head'
+import Head from 'next/head';
+import { FC } from 'react';
+import { Header, Footer} from '@/components';
+import { hashID } from '@/helpers';
+import { iHeadProps as Props } from '@/interfaces';
 
-// Components
-import { Footer, Header } from '@/components'
-
-// Libs
-
-// * Set and Define Local Properties:
-export interface Props {
-	children?: React.ReactNode
-	description?: string
-	title: string
-}
-
-export const Layout: NextPage<Props> = ({
+export const Layout: FC<Props> = ({
 	children,
-	title,
-	description = 'HelpAfrica ONG site made with Next.js',
+	SITE_TITLE,
+	SITE_DESCRIPTION,
+	THEME_COLOR,
+	myKey = hashID(),
+	GG_VERIFICATION,
+	MANIFEST,
+	HEADER_DESCRIPTION,
+	NAVIGATION_DESCRIPTION
 }) => {
+
 	return (
 		<>
 			<Head>
-				<title>{title}</title>
-				<meta name='description' content={description} />
-
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
-				{/* Link Tags */}
-				<link rel='author' href='Sergio Jurado | Diego Coianiz | Pedro Garcia' />
 				<link rel='icon' href='/favicon.ico' />
-				<link rel='manifest' href='' />
+				<title>{`${SITE_TITLE} | Help Africa ONG`}</title>
+				<meta name='description' content={` ${SITE_DESCRIPTION} - Help Africa ONG `} />
+				<meta name='theme-color' content={THEME_COLOR} />
+				<meta name='google-site-verification' content={GG_VERIFICATION} />
+				<link rel='manifest' href={MANIFEST} />
+				<link rel='author' href='Sergio Jurado Casado | Pedro Garcia Roman' />
 			</Head>
 
-			<Header />
-
-			<main className='container'>{children}</main>
-
+			<Header description={HEADER_DESCRIPTION} nav={NAVIGATION_DESCRIPTION}/>
+			<main className='min-h-screen max-w-8xl m-auto | bg-gray-400 dark:bg-gray-100'>
+				{children}
+			</main>
 			<Footer />
 		</>
-	)
-}
+	);
+};

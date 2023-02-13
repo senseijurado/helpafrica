@@ -1,5 +1,6 @@
 export * from './Footer'
 export * from './Header'
+export * from './LanguageSelector'
 export * from './Layout'
 export * from './Logo'
 export * from './Navigation'

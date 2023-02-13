@@ -1,15 +1,20 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	reactStrictMode: true,
+	eslint: {
+		ignoreDuringBuilds: true,
+	},
 	images: {
 		formats: ['image/avif', 'image/webp'],
 		domains: [''],
 	},
-	eslint: {
-		ignoreDuringBuilds: true,
-	},
 	swcMinify: false,
 	distDir: 'dist',
+
+	i18n: {
+		defaultLocale: 'en',
+		locales: ['en', 'es', 'fr', 'ja'],
+	},
 }
 
 module.exports = nextConfig

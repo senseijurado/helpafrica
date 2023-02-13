@@ -20,12 +20,13 @@
 			"@/assets/*": ["./src/assets/*"],
 			"@/components/*": ["./src/components/*"],
 			"@/data/*": ["./src/data/*"],
-			"@/utils/*": ["./src/utils/*"],
 			"@/hooks/*": ["./src/hooks/*"],
 			"@/interfaces/*": ["./src/interfaces/*"],
+			"@/lang/*": ["./src/lang/*"],
 			"@/pages/*": ["./src/pages/*"],
 			"@/styles/*": ["./src/styles/*"],
-			"@/themes/*": ["./src/themes/*"]
+			"@/themes/*": ["./src/themes/*"],
+			"@/utils/*": ["./src/utils/*"]
 		}
 	},
 	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

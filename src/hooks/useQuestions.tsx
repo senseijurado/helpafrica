@@ -1,3 +1,3 @@
-import { greet } from '@/utils'
+import { greet } from '@/helpers';
 
-greet('Hello World!')
+greet('Hooks are loaded...');
