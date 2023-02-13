@@ -24,8 +24,7 @@ export const Layout: NextPage<Props> = ({
 			<Head>
 				<title>{title}</title>
 				<meta name='description' content={description} />
-				<base href='https://helpafrica.click/' />
-				<meta name='google-site-verification' content='' />
+
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
 				{/* Link Tags */}
 				<link rel='author' href='Sergio Jurado | Diego Coianiz | Pedro Garcia' />
@@ -33,15 +32,10 @@ export const Layout: NextPage<Props> = ({
 				<link rel='manifest' href='' />
 			</Head>
 
-			{/* HEADER */}
 			<Header />
 
-			{/* Body Main Content */}
-			<main className='min-h-screen max-w-8xl m-auto | bg-gray-400 dark:bg-gray-100'>
-				{children}
-			</main>
+			<main className='container'>{children}</main>
 
-			{/* Footer of Page */}
 			<Footer />
 		</>
 	)

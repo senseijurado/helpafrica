@@ -1,7 +1,7 @@
 export function Footer() {
 	return (
 		<>
-			<footer>
+			<footer className='d-flex place-items-center'>
 				<small>© 2023 - Powered by Next.js - Strapi - TailwindCSS</small>
 			</footer>
 		</>

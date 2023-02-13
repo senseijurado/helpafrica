@@ -11,19 +11,19 @@ export const NAVLINKS: Routes[] = [
 	{
 		to: '/contact',
 		name: 'Contact',
-		id: uuid(2, 3),
+		id: uuid(),
 	},
 	{
 		to: '/about',
 		name: 'About',
-		id: uuid(2, 3),
+		id: uuid(),
 	},
 ]
 
 export const Navigation: FC = () => {
 	return (
 		<>
-			<nav>Navigation</nav>
+			<h2>Navbar goes here</h2>
 		</>
 	)
 }
