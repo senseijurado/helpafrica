@@ -1,0 +1,9 @@
+{
+    "index": {
+        "title": "Pagina de portada - proyecto HelpAfrica"
+    },
+    "header": {
+        "info": "Seguinos en nuestras redes: (iconos) : Email: yourmail@domain.com Phone: +5(88) 123-4567"
+    },
+    "navigation": ["Principal","Nosotros","Eventos","Causas","Blog","Paginas","Contacto"]
+}

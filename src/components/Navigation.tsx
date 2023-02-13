@@ -1,31 +1,20 @@
-import { uuid } from '@/utils/generator'
-import { FC } from 'react'
+// REACT IMPORTS:
+import Link from "next/link";
+import React, { useEffect, useState } from "react";
 
-export type Routes = {
-	to?: string
-	name: string
-	id?: string
-}
-
-export const NAVLINKS: Routes[] = [
-	{
-		to: '/contact',
-		name: 'Contact',
-		id: uuid(),
-	},
-	{
-		to: '/about',
-		name: 'About',
-		id: uuid(),
-	},
-]
-
-export const Navigation: FC = () => {
+export function Navigation({ sections }) {
 	return (
 		<>
-			<h2>Navbar goes here</h2>
+			<ul style={{display: "flex", listStyle:"none", }}>
+				{sections.map(section =>
+					<li key={section}>
+						<Link href={`/${section}`} style={{margin:"1px 10px"}} >{section}</Link>
+					</li>
+				)}
+			</ul>
+			<button> DONATE </button>
 		</>
-	)
+	);
 }
 
-export default Navigation
+export default Navigation;
