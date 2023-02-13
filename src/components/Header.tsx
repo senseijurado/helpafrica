@@ -1,26 +1,20 @@
-import { Navigation } from './Navigation';
-import LanguageSelector from './LanguageSelector.jsx';
-import { GetStaticProps, NextPage } from 'next';
-import {IndexProps  as Props}  from '@/interfaces';
+import { FC } from 'react'
+import LanguageSelector from './LanguageSelector'
+import { Navigation } from './Navigation'
 
-export const Header:NextPage<Props> = ({description, nav}) => {
+export const Header: FC = ({ description, nav }) => {
 	return (
 		<>
-			<header style={header_styles}>
-				<p>
-					{description}
-				</p>
+			<header style={{ display: 'flex' }}>
+				<p>{description}</p>
 				<LanguageSelector />
 			</header>
-			<nav style={{display:"flex"}}>
-				<Navigation sections={nav}/>
+
+			<nav style={{ display: 'flex' }}>
+				<Navigation sections={nav} />
 			</nav>
 		</>
-	);
+	)
 }
 
-export default Header;
-
-const header_styles = {
-	display: 'flex',
-}
+export default Header

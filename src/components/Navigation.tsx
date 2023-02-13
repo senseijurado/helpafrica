@@ -2,6 +2,18 @@
 import Link from 'next/link'
 
 export function Navigation({ sections }) {
+	// Navigation Menu Options
+	const menu = [
+		{
+			title: 'About the project',
+			path: '#',
+		},
+		{
+			title: 'Contact us',
+			path: '#',
+		},
+	]
+
 	return (
 		<>
 			<ul style={{ display: 'flex', listStyle: 'none' }}>

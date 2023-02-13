@@ -1,9 +1,7 @@
-import { GetStaticProps, NextPage } from 'next'
 import { Layout } from '@/components'
-import { hashID } from '@/helpers'
-import { IndexProps as Props } from '@/interfaces'
+import { GetStaticProps, NextPage } from 'next'
 
-export const HomePage: NextPage<Props> = ({ indexText }) => {
+export const HomePage: NextPage = ({ indexText }) => {
 	return (
 		<Layout
 			SITE_TITLE='Homepage HelpAfrica ONG'
@@ -21,7 +19,7 @@ export const HomePage: NextPage<Props> = ({ indexText }) => {
 export default HomePage
 
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
-	const res = await import(`@/lang/${locale.json}`)
+	const res = await import(`../locales/${locale.json}`)
 	return {
 		props: {
 			indexText: res.default,

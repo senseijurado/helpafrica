@@ -2,13 +2,11 @@ import { useRouter } from 'next/router'
 
 const LanguageSelector = () => {
 	const router = useRouter()
-
-	console.log(router)
-
-	const changeLanguage = ({ target }) => {
-		router.push(router.pathname, router.pathname, { locale: target.value })
+	const changeLanguage = (e) => {
+		router.push(router.pathname, router.pathname, {
+			locale: e.target.value,
+		})
 	}
-
 	return (
 		<select
 			style={{
@@ -17,9 +15,7 @@ const LanguageSelector = () => {
 			}}
 			onChange={changeLanguage}
 		>
-			<option value='es'>
-				<i>flagIcon</i> Español
-			</option>
+			<option value='es'>Español</option>
 			<option value='en'>English</option>
 		</select>
 	)
