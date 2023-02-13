@@ -151,4 +151,4 @@ Explicacion de la estructura del website y projecto aproximado. Susceptible a ca
 # CREDITS:
 
 Project and Theme based the flamboyant [Cherivy ONG Theme](https://helpafrica.netlify.app/)
-Juan Diego
+Diego COianiz
