@@ -1,0 +1,28 @@
+/* CUSTOM UTILITIES CLASSES: */
+
+.d-grid {
+	display: grid;
+}
+.d-flex {
+	display: flex;
+}
+.d-inline {
+	display: inline;
+}
+.d-inline-block {
+	display: inline-block;
+}
+.d-block {
+	display: block;
+}
+.d-none {
+	display: none;
+}
+
+.place-items-center {
+	place-items: center center;
+}
+
+.place-content-center {
+	place-content: center center;
+}
