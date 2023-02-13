@@ -1,6 +1,14 @@
-# HELP AFRICA - ONG PROJECT
+# Help Africa ONG:
 
-## OVERVIEW:
+-   [Overview](#overview)
+-   [Pricings](#pricings)
+    -   [Africa Basic](#africa-basic)
+    -   [Africa Human](#africa-human)
+    -   [Africa Deep](#africa-deep)
+    -   [Africa Live](#africa-live)
+-
+
+## Overview:
 
 Landing site to help Africa countries and poor people with an unfavourable situations:
 
@@ -8,7 +16,7 @@ Proyecto realizado en conjunto con [Pedro Garcia Roman](http://pedrogarcia.gq/)
 
 ---
 
-## PRICINGS:
+## Pricings:
 
 Define a subscription and fixed price to donations:
 
@@ -19,22 +27,9 @@ Define a subscription and fixed price to donations:
 | AFRICA DEEP  | €194.81 | €779.24 | €29.221 / €19.48 | €58.443    | €77.924      |
 | AFRICA LIVE  | €232.32 | €929.28 | €34.848 / €23.23 | €69.696    | €92.928      |
 
--   [AFRICA BASIC](#africa-basic-plan)
--   [AFRICA HUMAN](#africa-human-plan)
--   [AFRICA DEEP](#africa-deep-plan)
--   [AFRICA LIVE](#africa-live-plan)
-
 ---
 
-1. TOTAL MONTHLY PRICE: **€642,51**
-2. TOTAL YEARLY PRICE: **€2.570,04**
-3. TOTAL PROFITS PRODUCERS (30% / 2): **€96,38**
-4. TOTAL PROFITS PARTNERS (30%): **€192,75**
-5. TOTAL PROFITS ONG INNER (40%): **€257,00**
-
-All _totals prices_ include the added of all transactions plans columns:
-
-## AFRICA BASIC PLAN:
+### Africa Basic:
 
 This is de most economic basic plan of all:
 
@@ -51,7 +46,7 @@ This is de most economic basic plan of all:
 
 ---
 
-## AFRICA HUMAN PLAN:
+### Africa Human:
 
 Include all features of previously Plan:
 
@@ -68,7 +63,7 @@ Include all features of previously Plan:
 
 ---
 
-## AFRICA DEEP PLAN:
+### Africa Deep:
 
 Include all features of _AFRICA HUMAN PLAN_:
 
@@ -85,7 +80,7 @@ Include all features of _AFRICA HUMAN PLAN_:
 
 ---
 
-## AFRICA LIVE PLAN:
+## Africa Live:
 
 Include all features of _AFRICA DEEP PLAN_:
 
@@ -102,7 +97,7 @@ Include all features of _AFRICA DEEP PLAN_:
 
 ---
 
-## KEY FEATURES:
+## Features:
 
 A few features to track inside the project:
 
@@ -115,88 +110,27 @@ A few features to track inside the project:
 
 ---
 
-## INSTALLATION & USAGE:
+## Structure:
 
-Defining how We use a differents techs and how installation using on Development and Productions:
+Explicacion de la estructura del website y projecto aproximado. Susceptible a cambios:
 
-There're two repositories and local working directory spaces to run the project:
-
-### With Astro.build
-
--   BACKEND:
-    1. DB PLATFORMS:
-        1. [**_MONGO DB_**](https://account.mongodb.com/account/login)
-        2. **_[SUPABASE DB](https://supabase.com/)_**
-        3. [**_RENDER_**](https://render.com/)
-    2. DEPLOYMENT PLATFORMS:
-        1. [\*\*\*VERCEL](https://vercel.com/)\*_ + CUSTOM DNS_
-        2. [\*\*\*CLOUDFLARE](https://www.cloudflare.com/es-es/)\*\*\* + CUSTOM DOMAIN
-        3. [\*\*\*NETLIFY](https://www.netlify.com/) +\*\*\* CUSTOM DOMAIN
-        4. [**_SURGE.SH_**](https://surge.sh/) only Deploy Frontend
-        5. AUTOSELF HOSTED AT [**_HELPAFRICA.CLICK_**](http://dev.pedrogarcia.gq/help/)
-    3. PAYMENTS GATEAWAY:
-        1. [**_STRIPE_**](https://stripe.com/es) PAYMENTS & SUBS
-        2. [**_PAYPAL SANDBOX_**](https://developer.paypal.com/home) as Simple Alternative with Donate Buttons
-        3. [**_MOLLIE PAYMENTS_**](https://www.mollie.com/) as alternative extra.
--   FRONTEND:
-
-    1. FRAMEWORK FRONTEND:
-        1. [**_ASTRO ONLY:_**](https://docs.astro.build/en/getting-started/)
-        2. [**_ASTRO + TAILWIND_**](https://docs.astro.build/en/guides/integrations-guide/tailwind/)
-        3. [**_ASTRO + REACT UI_**](https://docs.astro.build/en/guides/integrations-guide/react/)
-    2. CSS STYLING:
-        1. CSS NATIVE + SASS
-        2. [\*\*\*TAILWIND CONFIG](https://tailwindcss.com/)**_ + [_**HYPER UI**_](https://www.hyperui.dev/) + [_**TAILBLOCKS\*\*\*](https://tailblocks.cc/)
-    3. [**_Charivi Theme_**](https://helpafrica.netlify.app) -👇👇 DOWNLOAD HERE 👇👇
-
-        [HelpAfrica_THEME.zip](Help%20Africa%20-%20Charivi%20babb28e5106a4e71a4089c8b7e86784e/HelpAfrica_THEME.zip)
-
-    4. 👉👉 [**_ASTRO REPO:_**](https://github.com/senseijurado/07-helpafrica-astro)
-
-### WITH NEXT VERSION:
-
--   BACKEND:
-
-    1. [**_NEXT JS_**](https://nextjs.org/docs/getting-started) as Backup Project
-    2. NEXT API INCLUDED:
-    3. MONGO DB or ANOTHERS
-
--   FRONTEND:
-    1. [**_NEXT JS_**](https://nextjs.org/docs/getting-started) as Backup Project
-    2. [**_NEXT UI_**](https://nextui.org/docs/guide/getting-started)
-    3. [**_CHAKRA UI_**](https://chakra-ui.com/)
-    4. [**_NEXTJS REPO_**](https://github.com/senseijurado/08-helpafrica-nextjs)
-
----
-
-## STRUCTURE & SITEMAP:
-
-Define the project’s structure ± declared. Could be changed on demand:
-
-### SITEMAP:
-
--   **HOMEPAGE SCREEN:**
-    -   Logotype
-    -   Banner Hero Image
-    -   No SignUp or SignIn Forms
-    -   No item of Navigation Menu
--   **ABOUT US / COMPANY** (Tell a little history about us and the mission of this project)
-    -   *OUR TEAM:* (Technical Devs Teamworks)
-    -   *MEMBERS:* (Quienes son nuestros socios y asociaciones de terceros)
-    -   *CLIENTS:* (Definir si esto sale y quienes son exactly our clients:)
-    -   *STUDY CASES* (Puede ir en la pagina de inicio, perfectly)
--   **BLOG:** Retrieve content two ways:
-    -   By CMS like Strapi CMS
-    -   By Local MD manually wroten files:
--   HELP US / DONATE / CONTRIBUTE CTA BUTTON
-    -   Nearby of Contact Page
-    -   Last Item Menu like a Button
--   **CONTACT / GET IN TOUCH:**
-    -   No Google Maps needed
-    -   Formulario Contacto Simple y Directo (FORMIK or REACT HOOK FORM)
--   [SHOP / STORE]
-    -   PARA EL FUTURO (DISEÑAR TIENDA SIMPLE PARA VENTA MERCHANDISE)
-    -   INTEGRATE STRIPE as a payment Links method:
+```
+├── homepage:
+│   └── logotype
+│   └── navigation
+│   └── theme-switcher
+│   └── search
+│   └── donation cta button
+├── about-us:
+│   └── study cases:
+│   └── our history (vision or mission)
+├── company:
+│   └── our clients (socios)
+│   └── our team (members)
+├── news (blog):
+│
+└── contactpage:
+```
 
 ---
 
