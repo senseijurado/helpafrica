@@ -12,7 +12,7 @@ const nextConfig = {
 	distDir: 'dist',
 	i18n: {
 		defaultLocale: 'en',
-		locales: ['en', 'es', 'fr', 'ja'],
+		locales: ['en'],
 	},
 }
 
