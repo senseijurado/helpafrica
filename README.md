@@ -129,7 +129,7 @@ Explicacion de la estructura del website y projecto aproximado. Susceptible a ca
 │   └── our team (members)
 ├── news (blog):
 │
-└── contactpage:
+└── contact-page:
 ```
 
 ---
