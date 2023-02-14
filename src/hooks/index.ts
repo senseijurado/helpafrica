@@ -1,1 +1,3 @@
-export * from './useQuestions';
+import { Greet } from '@/utils'
+
+Greet('Hi, there!')

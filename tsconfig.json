@@ -22,7 +22,7 @@
 			"@/data/*": ["./src/data/*"],
 			"@/hooks/*": ["./src/hooks/*"],
 			"@/interfaces/*": ["./src/interfaces/*"],
-			"@/lang/*": ["src/locales/*"],
+			"@/langs/*": ["./src/i18n/locales/*"],
 			"@/pages/*": ["./src/pages/*"],
 			"@/styles/*": ["./src/styles/*"],
 			"@/themes/*": ["./src/themes/*"],

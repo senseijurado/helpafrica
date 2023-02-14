@@ -7,11 +7,12 @@ export interface Props {
 	children?: React.ReactNode
 	description?: string
 	title: string
+	id?: string
 }
 
 export const Layout: NextPage<Props> = ({
 	children,
-	title,
+	title = 'Welcome to HelpAfrica',
 	description = 'HelpAfrica ONG site made with Next.js',
 }) => {
 	return (

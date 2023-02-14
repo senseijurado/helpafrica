@@ -9,11 +9,32 @@ module.exports = {
 		'./src/themes/**/*.{ts,tsx,js,jsx,astro,html,svelte}',
 		'./src/utils/**/*.{ts,tsx,js,jsx,astro,html,svelte}',
 	],
-	corePlugins: ['accentColor', 'backgroundColor', 'textColor'],
+	corePlugins: [
+		'accentColor',
+		'backgroundColor',
+		'textColor',
+		'aspectRatio',
+		'fontWeight',
+		'fontSize',
+	],
 	darkMode: 'class',
-	future: true,
-	important: true,
 	theme: {
+		screens: {
+			sm: '480px',
+			md: '640px',
+			lg: '1080px',
+			xl: '1280px',
+			'2xl': '1440px',
+			'3xl': '1920px',
+		},
+		aspectRatio: {
+			video: '16 / 9',
+			square: '1 / 1',
+			vintage: '3 / 2',
+			widescreen: '21 / 9',
+			'4-5': '4 / 5',
+			'5-4': '5 / 4',
+		},
 		extend: {
 			colors: ({ colors }) => ({
 				primary: {

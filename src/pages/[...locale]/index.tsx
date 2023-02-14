@@ -1,3 +1,5 @@
+import { FC } from 'react'
+
 // export const getStaticProps = async ({ locale }) => {
 // 	console.log(locale)
 // 	// const res = await import(`../../lang/${locale}.json`)
@@ -8,8 +10,6 @@
 // 		},
 // 	}
 // }
-
-import { FC } from 'react'
 
 // export const getStaticPaths = async () => {
 // 	let paths = []
@@ -34,10 +34,11 @@ import { FC } from 'react'
 export const LanguageSelector: FC = () => {
 	return (
 		<>
-			<div> section Index</div>{' '}
+			<h1>Aqui se renderiza el componente de Selector Idiomas</h1>
+			{/* <div> section Index</div>{' '}
 			<Link href={'/'}>
 				<button>{router.locale === 'en' ? 'return' : 'volver'}</button>{' '}
-			</Link>
+			</Link> */}
 		</>
 	)
 }

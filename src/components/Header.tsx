@@ -1,18 +1,17 @@
 import { FC } from 'react'
-import LanguageSelector from './LanguageSelector'
+// import LanguageSelector from './LanguageSelector'
 import { Navigation } from './Navigation'
 
-export const Header: FC = ({ description, nav }) => {
+export const Header: FC = () => {
 	return (
 		<>
 			<header style={{ display: 'flex' }}>
-				<p>{description}</p>
-				<LanguageSelector />
+				<p>This is a header</p>
+				{/* <LanguageSelector /> */}
+				<nav style={{ display: 'flex' }}>
+					<Navigation />
+				</nav>
 			</header>
-
-			<nav style={{ display: 'flex' }}>
-				<Navigation sections={nav} />
-			</nav>
 		</>
 	)
 }

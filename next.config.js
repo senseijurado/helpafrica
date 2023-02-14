@@ -9,9 +9,11 @@ const nextConfig = {
 		domains: [''],
 	},
 	swcMinify: false,
+	cleanDistDir: true,
+	compress: true,
 	distDir: 'dist',
-
 	i18n: {
+		localeDetection: false,
 		defaultLocale: 'en',
 		locales: ['en', 'es', 'fr', 'ja'],
 	},

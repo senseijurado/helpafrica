@@ -1,23 +1,18 @@
-import { useRouter } from 'next/router'
+import { FC } from 'react'
 
-const LanguageSelector = () => {
-	const router = useRouter()
-	const changeLanguage = (e) => {
-		router.push(router.pathname, router.pathname, {
-			locale: e.target.value,
-		})
-	}
+export const LanguageSelector: FC = () => {
 	return (
-		<select
-			style={{
-				marginLeft: '15px',
-				borderRadius: '5px',
-			}}
-			onChange={changeLanguage}
-		>
-			<option value='es'>Español</option>
-			<option value='en'>English</option>
-		</select>
+		<h1>Language Selector</h1>
+		// <select
+		// 	style={{
+		// 		marginLeft: '15px',
+		// 		borderRadius: '5px',
+		// 	}}
+		// 	onChange={changeLanguage}
+		// >
+		// 	<option value='es'>Español</option>
+		// 	<option value='en'>English</option>
+		// </select>
 	)
 }
 

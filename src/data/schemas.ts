@@ -1,9 +1,15 @@
-import { QuestionProps } from '@/interfaces';
+import { uuid } from '@/utils'
 
-export let FAQS: QuestionProps[] = [
+interface FAQOptions {
+	q?: string
+	answer?: string
+	id?: string
+}
+
+export let FAQS: FAQOptions[] = [
 	{
-		id: 1,
-		question: '',
-		answer: '',
+		q: 'Please',
+		answer: 'Pleas',
+		id: uuid(),
 	},
-];
+]
