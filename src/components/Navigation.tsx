@@ -1,35 +1,53 @@
 // REACT IMPORTS:
 
-import { uuid } from '@/utils'
 import Link from 'next/link'
 import { FC } from 'react'
 
 export const Navigation: FC = () => {
-	const menu = [
+	const navigation = [
 		{
-			title: 'About the project',
-			path: '#',
-			id: uuid(),
+			name: 'Home',
+			href: '/',
+			current: true,
 		},
 		{
-			title: 'Contact us',
-			path: '#',
-			id: uuid(),
+			name: 'Company',
+			href: '/about',
+			current: false,
+		},
+		{
+			name: 'Our Team',
+			href: '/team',
+			current: false,
+		},
+		{
+			name: 'Causes',
+			href: '/causes',
+			current: false,
 		},
 	]
 
 	return (
 		<>
-			<ul style={{ display: 'flex', listStyle: 'none' }} className='aspect-video'>
-				{menu.map(({ title, path, id }) => (
-					<li key={id}>
-						<Link href={`/${path}`} style={{ margin: '1px 10px' }}>
-							{title}
+			<nav aria-label='Site Nav'>
+				<ul className='flex items-center gap-6 text-sm'>
+					{navigation.map(({ name, href, current }) => (
+						<Link
+							key={href}
+							href={href}
+							className='text-gray-500 transition hover:text-gray-500/75'
+						>
+							{name}
 						</Link>
-					</li>
-				))}
-			</ul>
-			<button> DONATE </button>
+					))}
+				</ul>
+			</nav>
+
+			<div className='block md:hidden'>
+				<button className='rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75'>
+					Donate and Help
+				</button>
+			</div>
 		</>
 	)
 }
