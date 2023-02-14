@@ -4,7 +4,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "next dev --port=4200",
-		"build": "rm -rf dist/ && next build",
+		"build": "rm -rf dist/ && next build && npx swc ./dist -d ./dist",
 		"start": "next start",
 		"lint": "prettier --check --write . && next lint",
 		"semver": "npx semantic-release"
