@@ -3,26 +3,57 @@
 .d-grid {
 	display: grid;
 }
+
 .d-flex {
 	display: flex;
 }
+
 .d-inline {
 	display: inline;
 }
+
 .d-inline-block {
 	display: inline-block;
 }
+
 .d-block {
 	display: block;
 }
+
 .d-none {
 	display: none;
 }
 
-.place-items-center {
+
+.flex-center-center {
 	place-items: center center;
 }
 
-.place-content-center {
-	place-content: center center;
+.flex-start-start {
+	place-items: start start;
+}
+
+.flex-start-center {
+	place-items: start center;
+}
+
+.flex-center-around {
+	align-items: center;
+	justify-content: space-around;
+}
+
+
+.flex-center-between {
+
+	align-items: center;
+	justify-content: space-between;
+}
+
+.input-group {
+	background-color: 'bg-gray-100';
+	@apply: w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus: border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out;
+}
+
+.sr-only {
+	visibility: hidden;
 }

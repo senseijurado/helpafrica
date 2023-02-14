@@ -6,9 +6,7 @@ export const Document = () => {
 			<Html lang='en'>
 				<Head></Head>
 				<body className='bg-white text-neutral-7'>
-					<main className='w-screen min-h-screen'>
-						<Main />
-					</main>
+					<Main />
 					<NextScript />
 				</body>
 			</Html>

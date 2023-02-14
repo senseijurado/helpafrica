@@ -1,4 +1,4 @@
-import { Layout } from '@/components'
+import { Header, Layout } from '@/components'
 import { NextPage } from 'next'
 
 export const HomePage: NextPage = () => {
@@ -7,7 +7,7 @@ export const HomePage: NextPage = () => {
 			title='Welcome to HelpAfrica'
 			description='HelpAfrica es una ONG que pretende ayudar y aportar su granito de arena solidaria'
 		>
-			<h1>Homepage</h1>
+			{/* <Header /> */}
 		</Layout>
 	)
 }

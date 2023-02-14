@@ -24,6 +24,8 @@ module.exports = {
 	darkMode: 'class',
 	theme: {
 		extend: {
+			gridAutoColumns: true,
+			gridAutoRows: true,
 			screens: {
 				sm: '480px',
 				md: '640px',
