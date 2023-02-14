@@ -134,19 +134,34 @@ Explicacion de la estructura del website y projecto aproximado. Susceptible a ca
 
 ---
 
-# LICENSES:
+# Licenses:
 
 -   [_CREATIVE COMMONS NETWORK:_](https://creativecommons.org/)
--   [_GNU PUBLIC v3.0_](https://www.gnu.org/licenses/gpl-3.0.en.html)
--   [_M.I.T LICENSES:_](https://mit-license.org/)
 
-# CHANGE LOGS:
+---
 
-👉 [_TAGS RELEASES_](https://github.com/senseijurado/07-helpafrica-astro/releases)
-👉 [_January, 26.2023 - v0.5.7:_](https://github.com/senseijurado/07-helpafrica-astro/releases/tag/v0.5.7)
-👉 [_January, 27.2023 - v0.10.7:_](https://github.com/senseijurado/07-helpafrica-astro/releases/tag/v0.10.7)
-👉 [_January, 27.2023 - v1.0.0:_](https://github.com/senseijurado/07-helpafrica-astro/releases/tag/v1.0.0)
-👉 [_January, 30.2023 - v1.1.0:_](https://github.com/senseijurado/07-helpafrica-astro/releases/tag/v1.1.0)
+# References:
+
+Sample Code Structure:
+
+```
+src
++-- i18n
+    +-- locales
+    |    +-- en
+    |        +-- translations.json
+    |    +-- es
+    |        +-- translations.json
+    +-- config.js
+
+```
+
+-   [React i18next Starter](https://github.com/Ibaslogic/react_i18next_starter)
+-   [React i18next FreecodeCamp](https://www.freecodecamp.org/news/how-to-add-localization-to-your-react-app/)
+-   [i18n Variables Implementations](https://stackoverflow.com/questions/44635584/react-intl-how-to-switch-locale-and-messages-from-variable)
+-   [Next UI to DarkMode Theme](https://nextui.org/docs/theme/dark-mode)
+-   [Tailwind and TW Ui Components](https://tailwindcss.com/)
+-   [HyperUI Tailwind Components](https://www.hyperui.dev/)
 
 # CREDITS:
 
