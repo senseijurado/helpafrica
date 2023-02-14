@@ -142,19 +142,28 @@ Explicacion de la estructura del website y projecto aproximado. Susceptible a ca
 
 # References:
 
-Sample Code Structure:
+**Diego** tiene que implementar el Semantic Versioning de la siguiente Forma:
 
-```
-src
-+-- i18n
-    +-- locales
-    |    +-- en
-    |        +-- translations.json
-    |    +-- es
-    |        +-- translations.json
-    +-- config.js
+-   [ ] Install this package: `npm i semantic-release`.
+-   [x] Crear tokens Access en GitHub: `GH_TOKEN=`
+-   [x] Copiar esos tokens en GitHub Actions en el repository:
+-   [x] Crear carpetas en local y archivo `main.yaml`:
+-   [ ] Crear configuraciones en archivo `main.yaml`:
+-   [x] Copiar plugins en archivo `package.json`:
+-   [ ] Crear comando script `npx semantic-release` en `package.json`.
+-   [ ] Una vez hecho todo, crear los commits de la siguiente forma:
 
+```shell
+    fix: "patch message commit"  => Patch Fix Release
+    feat: "minor message commit" => Minor Feature Release
+    perf: "major message commit" => Major Feature Release
 ```
+
+-   [ ] Cuando se haga eso, y se ejecute el push a rama `main` en el repository remote en github se creará automatically un `tag release` con el mensaje del comit que se haya puesto.
+
+---
+
+# References:
 
 -   [React i18next Starter](https://github.com/Ibaslogic/react_i18next_starter)
 -   [React i18next FreecodeCamp](https://www.freecodecamp.org/news/how-to-add-localization-to-your-react-app/)
@@ -163,6 +172,6 @@ src
 -   [Tailwind and TW Ui Components](https://tailwindcss.com/)
 -   [HyperUI Tailwind Components](https://www.hyperui.dev/)
 
-# CREDITS:
+# Credits:
 
 Project and Theme based the flamboyant [Cherivy ONG Theme](https://helpafrica.netlify.app/)
