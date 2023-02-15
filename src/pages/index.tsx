@@ -1,4 +1,4 @@
-import { Header, Layout } from '@/components'
+import { Layout } from '@/components'
 import { NextPage } from 'next'
 
 export const HomePage: NextPage = () => {

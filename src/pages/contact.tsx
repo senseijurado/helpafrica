@@ -1,11 +1,11 @@
 import { Layout } from '@/components'
-import { HiMoon } from 'react-icons/hi2'
 const ContactPage = () => {
-	console.log(<HiMoon className='text-primary-4 pointer' />)
 	return (
 		<>
-			<i className='pointer'></i>
-			<Layout title='Get In Touch' description='Contact Us'>
+			<Layout
+				title='Contact Page'
+				description='Encuentra cómo contactar con nuestra Asociación Help Africa.'
+			>
 				<section className='text-gray-600 body-font relative'>
 					<div className='container px-5 py-24 mx-auto'>
 						<div className='flex flex-col text-center w-full mb-12'>
