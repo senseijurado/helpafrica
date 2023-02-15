@@ -24,7 +24,6 @@
 	display: none;
 }
 
-
 .flex-center-center {
 	place-items: center center;
 }
@@ -42,9 +41,7 @@
 	justify-content: space-around;
 }
 
-
 .flex-center-between {
-
 	align-items: center;
 	justify-content: space-between;
 }

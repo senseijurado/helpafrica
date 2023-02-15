@@ -6,7 +6,8 @@
 		"dev": "next dev --port=4200",
 		"build": "rm -rf dist/ && next build",
 		"start": "next start",
-		"lint": "prettier --check --write . && next lint",
+		"lint": "next lint",
+		"linter": "prettier --check --write",
 		"semver": "npx semantic-release"
 	},
 	"repository": {

@@ -1,2 +1,2 @@
-export * from './formatter';
-export * from './generator';
+export * from './formatter'
+export * from './generator'
