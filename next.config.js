@@ -8,7 +8,7 @@ const nextConfig = {
 		formats: ['image/avif', 'image/webp'],
 		domains: [''],
 	},
-	swcMinify: true,
+	swcMinify: false,
 	distDir: 'dist',
 	i18n: {
 		defaultLocale: 'en',
