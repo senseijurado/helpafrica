@@ -3,7 +3,7 @@ import { NextPage } from 'next'
 import Head from 'next/head'
 
 // * Set and Define Local Properties:
-export interface Props {
+interface Props {
 	children?: React.ReactNode
 	description?: string
 	title: string

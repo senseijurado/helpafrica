@@ -1,12 +1,12 @@
 import { Logo } from '@/components'
 import { FC } from 'react'
 
-export interface Props {
+interface Props {
 	ariaLabel?: string
 	classes?: string
 }
 
-export const Header: FC = () => {
+export const Header: FC<Props> = () => {
 	return (
 		<>
 			<header
