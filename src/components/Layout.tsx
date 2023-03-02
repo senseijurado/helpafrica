@@ -2,8 +2,7 @@ import { Footer, Header } from '@/components'
 import { NextPage } from 'next'
 import Head from 'next/head'
 
-// * Set and Define Local Properties:
-interface Props {
+export interface Props {
 	children?: React.ReactNode
 	description?: string
 	title: string
@@ -18,7 +17,7 @@ export const Layout: NextPage<Props> = ({
 	return (
 		<>
 			<Head>
-				<title>{title}</title>
+				<title>Welcome to HelpAfrica | {title}</title>
 				<meta name='description' content={description} />
 
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
@@ -28,11 +27,12 @@ export const Layout: NextPage<Props> = ({
 				<link rel='manifest' href='' />
 			</Head>
 
-			<Header />
+			{/* Header Component Here: */}
+			<Header siteNameBrand='' />
 
 			<main className='container'>{children}</main>
 
-			<Footer />
+			<Footer copyTitle='Right Reserved | HelpAfrica®' />
 		</>
 	)
 }

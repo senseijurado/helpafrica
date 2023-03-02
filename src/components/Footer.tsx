@@ -1,7 +1,9 @@
-// REACT IMPORTS:
+interface Props {
+	copyTitle?: string
+}
 
-export function Footer() {
-	return <div>Footer</div>
+export const Footer: NextPage<Prop> = ({ copyTitle = '' }) => {
+	return <p>{copyTitle}</p>
 }
 
 export default Footer

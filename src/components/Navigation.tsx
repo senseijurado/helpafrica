@@ -3,27 +3,22 @@
 import Link from 'next/link'
 import { FC } from 'react'
 
-export const Navigation: FC = () => {
+export interface Routes {
+	href?: string
+	name?: string
+	Component?: string
+	PageToShow?: string
+	current?: boolean
+}
+
+export const NavigationBar: FC<Routes[]> = () => {
 	const navigation = [
 		{
-			name: 'Home',
 			href: '/',
+			name: 'Home',
+			Component: '',
+			PageToShow: '',
 			current: true,
-		},
-		{
-			name: 'Company',
-			href: '/about',
-			current: false,
-		},
-		{
-			name: 'Our Team',
-			href: '/team',
-			current: false,
-		},
-		{
-			name: 'Causes',
-			href: '/causes',
-			current: false,
 		},
 	]
 
@@ -31,10 +26,10 @@ export const Navigation: FC = () => {
 		<>
 			<nav aria-label='Site Nav'>
 				<ul className='flex items-center gap-6 text-sm'>
-					{navigation.map(({ name, href, current }) => (
+					{navigation.map((item, idx) => (
 						<Link
-							key={href}
-							href={href}
+							key={item.href}
+							href={item.href}
 							className='text-gray-500 transition hover:text-gray-500/75'
 						>
 							{name}
@@ -52,4 +47,4 @@ export const Navigation: FC = () => {
 	)
 }
 
-export default Navigation
+export default NavigationBar
