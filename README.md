@@ -2,10 +2,6 @@
 
 -   [Overview](#overview)
 -   [Pricings](#pricings)
-    -   [Africa Basic](#africa-basic)
-    -   [Africa Human](#africa-human)
-    -   [Africa Deep](#africa-deep)
-    -   [Africa Live](#africa-live)
 
 ## Overview:
 
@@ -19,84 +15,22 @@ Proyecto realizado en conjunto con [Pedro Garcia Roman](http://pedrogarcia.gq/)
 
 Define a subscription and fixed price to donations:
 
-| PLAN NAME    | MONTHLY | YEARLY  | 30% PRODUCERS    | 30% SOCIOS | 40% HELP ONG |
-| ------------ | ------- | ------- | ---------------- | ---------- | ------------ |
-| AFRICA BASIC | €77.44  | €309.77 | €11.616 / €7.74  | €23.232    | €30.976      |
-| AFRICA HUMAN | €137.94 | €551.76 | €20.691 / €13.79 | €41.382    | €55.176      |
-| AFRICA DEEP  | €194.81 | €779.24 | €29.221 / €19.48 | €58.443    | €77.924      |
-| AFRICA LIVE  | €232.32 | €929.28 | €34.848 / €23.23 | €69.696    | €92.928      |
+Reparto de beneficios conseguidos: (MONTHLY BASED ON):
+
+-   **PRODUCTORES** => _(30%)_ / 2 = PEDRO (15%) + SERGIO (15%)
+-   **COLLABS** => _(30%)_ TOTAL
+-   **RECURSOS** => _(40%)_ TOTAL
+
+| PLAN NAME     | MONTHLY      | YEARLY       | PRODUCERS (30%) | COLLABS (30%) | BUSINESS (40%) |
+| ------------- | ------------ | ------------ | --------------- | ------------- | -------------- |
+| Plan Basic    | **77.44 €**  | **309.77 €** | **11.61 €**     | **23.23 €**   | **30.97 €**    |
+| Plan Humanity | **137.94 €** | **551.76 €** | **20.69 €**     | **41.38 €**   | **55.17 €**    |
+| Plan Deeply   | **194.81 €** | **779.24 €** | **29.22 €**     | **58.44 €**   | **77.92 €**    |
+| Plan Live     | **232.32 €** | **929.28 €** | **34.84 €**     | **69.69 €**   | **92.92 €**    |
 
 ---
 
-### Africa Basic:
-
-This is de most economic basic plan of all:
-
--   **Features and Profits:**
-    -   Help to buy humans resources.
-    -   Ayudar para las personas desfavorecidas cercanas.
-    -   Plan de reinserción laboral y economica en paises Africanos
-    -   Plan de ayudas para las personas y refugiados en situacion de pobreza en España y Europa.
-    -   Recaudo para los productores: **30% / 2 = 15%** en total.
-    -   Recaudo para ONG asociadas del **30%** en total.
-    -   Recaudo para ONG propia y ayudas del **40%**
-
-[👆 BACK TOP](#pricings)
-
----
-
-### Africa Human:
-
-Include all features of previously Plan:
-
--   **Features and Profits:**
-    -   Help to buy humans resources.
-    -   Ayudar para las personas desfavorecidas cercanas.
-    -   Plan de reinserción laboral y economica en paises Africanos
-    -   Plan de ayudas para las personas y refugiados en situacion de pobreza en España y Europa.
-    -   Recaudo para los productores: **30% / 2 = 15%** en total.
-    -   Recaudo para ONG asociadas del **30%** en total.
-    -   Recaudo para ONG propia y ayudas del **40%**
-
-[👆 BACK TOP](#pricings)
-
----
-
-### Africa Deep:
-
-Include all features of _AFRICA HUMAN PLAN_:
-
--   **Features and Profits:**
-    -   Help to buy humans resources.
-    -   Ayudar para las personas desfavorecidas cercanas.
-    -   Plan de reinserción laboral y economica en paises Africanos
-    -   Plan de ayudas para las personas y refugiados en situacion de pobreza en España y Europa.
-    -   Recaudo para los productores: **30% / 2 = 15%** en total.
-    -   Recaudo para ONG asociadas del **30%** en total.
-    -   Recaudo para ONG propia y ayudas del **40%**
-
-[👆 BACK TOP](#pricings)
-
----
-
-## Africa Live:
-
-Include all features of _AFRICA DEEP PLAN_:
-
--   **Features and Profits:**
-    -   Help to buy humans resources.
-    -   Ayudar para las personas desfavorecidas cercanas.
-    -   Plan de reinserción laboral y economica en paises Africanos
-    -   Plan de ayudas para las personas y refugiados en situacion de pobreza en España y Europa.
-    -   Recaudo para los productores: **30% / 2 = 15%** en total.
-    -   Recaudo para ONG asociadas del **30%** en total.
-    -   Recaudo para ONG propia y ayudas del **40%**
-
-[👆 BACK TOP](#pricings)
-
----
-
-## Features:
+## Key Features:
 
 A few features to track inside the project:
 
@@ -109,44 +43,11 @@ A few features to track inside the project:
 
 ---
 
-## Structure:
-
-Explicacion de la estructura del website y projecto aproximado. Susceptible a cambios:
-
-```
-├── homepage:
-│   └── logotype
-│   └── navigation
-│   └── theme-switcher
-│   └── search
-│   └── donation cta button
-├── about-us:
-│   └── study cases:
-│   └── our history (vision or mission)
-├── company:
-│   └── our clients (socios)
-│   └── our team (members)
-├── news (blog):
-│
-└── contact-page:
-```
-
----
-
 # Licenses:
 
 -   [_CREATIVE COMMONS NETWORK:_](https://creativecommons.org/)
 
 ---
-
-# References:
-
--   [React i18next Starter](https://github.com/Ibaslogic/react_i18next_starter)
--   [React i18next FreecodeCamp](https://www.freecodecamp.org/news/how-to-add-localization-to-your-react-app/)
--   [i18n Variables Implementations](https://stackoverflow.com/questions/44635584/react-intl-how-to-switch-locale-and-messages-from-variable)
--   [Next UI to DarkMode Theme](https://nextui.org/docs/theme/dark-mode)
--   [Tailwind and TW Ui Components](https://tailwindcss.com/)
--   [HyperUI Tailwind Components](https://www.hyperui.dev/)
 
 # Credits:
 
