@@ -1,17 +1,15 @@
 import { FC } from 'react'
 
-export interface Props {
-	siteNameBrand?: string
+interface Props {
+	siteTitle?: string
+	children?: React.ReactNode
 }
 
-export const Header: FC<Props> = ({ siteNameBrand }) => {
+export const Header: FC<Props> = ({ children, siteTitle }) => {
 	return (
 		<>
 			<header>
-				<h1>{siteNameBrand}</h1>
-
-				{/*  Navigation Menu Bar Here */}
-				{/* <NavigationBar /> */}
+				<h1>{siteTitle}</h1>
 			</header>
 		</>
 	)

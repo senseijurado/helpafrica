@@ -1,3 +1,274 @@
+// TAILWINDCSS RESET, COMPONENTS, UTILS STYLES:
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+// BASE RESET WITH OWN STYLES:
+:root {
+	--fontsize-body: 62.5%;
+	--fontsize-base: clamp(62.5%, 1vw + 1.5rem, 1.2rem);
+	--fontsize-lg: clamp(1.4rem, 0.75vw + 1.4rem, 1.6rem);
+	--fontsize-xl: clamp(2.44rem, 3vw + 1.75rem, 3.2rem);
+	--fontsize-2xl: clamp(3.33rem, 4vw + 2.4rem, 4.8rem);
+	--fontsize-3xl: clamp(4.44rem, 4.5vw + 3.2rem, 5.5rem);
+	--fontsize-4xl: clamp(5.55rem, 5vw + 4.8rem, 6.4rem);
+}
+
+// Document Box Model Normalize
+html {
+	-moz-osx-font-smoothing: grayscale;
+	-ms-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	background-color: var(--color-body);
+	box-sizing: border-box;
+	color-scheme: dark;
+	font-family: Inter, Arial, Helvetica, sans-serif;
+	font-size-adjust: 0.58;
+	font-size: var(--fonsize-body);
+	font-synthesis: none;
+	font-weight: 400;
+	height: 100vh;
+	line-height: 2.4rem;
+	margin: 0;
+	padding: 0;
+	text-rendering: optimizeLegibility;
+	text-size-adjust: 100%;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+// Document Body Normalize:
+body {
+	@extend html;
+	background-color: whitesmoke;
+	color: midnightblue;
+	font-family: 'Segoe UI', Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 1.6rem;
+	min-height: 100vh;
+	padding: 3rem;
+	display: flex;
+	flex-direction: column;
+	line-height: 1.55;
+
+	& > * {
+		flex: 1 1 auto;
+	}
+}
+
+main {
+	max-width: 140rem;
+	width: 100%;
+	display: block;
+	flex-grow: 1;
+}
+
+/* HEADING NORMALIZE */
+h1,
+h2,
+h3,
+h4 {
+	font-size: 4.8rem;
+	margin: 1rem 0;
+	line-height: 1.33;
+}
+
+h2 {
+	@extend h1;
+	font-size: 3.2rem;
+}
+
+h3 {
+	@extend h1;
+	font-size: 2.4rem;
+}
+
+h4 {
+	@extend h1;
+	font-size: 1.8rem;
+}
+
+/* HORIZONTAL RULES */
+hr {
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible;
+}
+
+/* PRE AND CODE TAGS */
+pre,
+code,
+kbd,
+samp {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 1.2rem;
+}
+
+/* ANCHOR LINKS */
+a {
+	background-color: transparent;
+}
+
+/* Abbreviations Tags Titles */
+abbr[title] {
+	border-bottom: none;
+	text-decoration: underline dotted;
+}
+
+/* Font Bold Tags */
+b,
+strong {
+	font-weight: 900;
+}
+
+/* FONT SIZE SMALL TAGS */
+small {
+	font-size: 75%;
+}
+
+/* Sub and Sup affecting line-heights */
+sub,
+sup {
+	font-size: 0.8rem;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sub {
+	bottom: -0.25rem;
+}
+
+sup {
+	top: -0.5rem;
+}
+
+/* Media Images, Video and Object Normalize */
+img,
+video,
+embed,
+iframe,
+audio,
+[class*='imagen'],
+[class*='media'] {
+	max-width: 100%;
+	display: block;
+	font-size: 0;
+	height: auto;
+	object-fit: cover;
+}
+
+/* FORM ELEMENTS TAGS */
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: inherit;
+	font-size: 1.6rem;
+	line-height: 1.25;
+	margin: 0;
+}
+
+button,
+input {
+	overflow: visible;
+}
+
+button,
+select {
+	text-transform: none;
+}
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+	--webkit-appearance: button;
+	all: unset;
+}
+
+button::-moz-focus-inner,
+[type='button']::-moz-focus-inner,
+[type='reset']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner {
+	border-style: none;
+	outline: 0;
+	padding: 0;
+}
+
+button:-moz-focusring,
+[type='button']:-moz-focusring,
+[type='reset']:-moz-focusring,
+[type='submit']:-moz-focusring {
+	outline: 1px dotted ButtonText;
+}
+
+fieldset {
+	padding: 0.35rem 0.75rem 0.625rem;
+}
+
+legend {
+	box-sizing: inherit;
+	color: inherit;
+	display: table;
+	max-width: 100%;
+	padding: 0;
+	white-space: normal;
+}
+
+/* PROGRESS TAGS */
+progress {
+	vertical-align: baseline;
+}
+
+textarea {
+	overflow: auto;
+	resize: vertical;
+}
+
+[type='checkbox'],
+[type='radio'] {
+	box-sizing: inherit;
+	padding: 0;
+}
+
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button {
+	height: auto;
+}
+
+[type='search'] {
+	--webkit-appearance: textfield;
+	outline-offset: -2px;
+}
+
+[type='search']::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+	-webkit-appearance: button;
+
+	font: inherit;
+}
+
+details {
+	display: block;
+}
+
+summary {
+	display: list-item;
+}
+
+template {
+	display: none;
+}
+
+[hidden] {
+	display: none;
+}

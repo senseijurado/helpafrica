@@ -5,7 +5,7 @@ export const Document = () => {
 		<>
 			<Html lang='en'>
 				<Head></Head>
-				<body className='bg-white text-neutral-7'>
+				<body className='bg-slate-50 text-gray-6'>
 					<Main />
 					<NextScript />
 				</body>

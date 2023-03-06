@@ -1,6 +1,6 @@
 import { FC } from 'react'
 
-export interface Props {
+interface Props {
 	brandTitle?: string
 	logoURI?: string
 }

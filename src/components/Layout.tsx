@@ -1,3 +1,4 @@
+import { Footer, Header } from '@/components'
 import { NextPage } from 'next'
 import Head from 'next/head'
 
@@ -7,7 +8,7 @@ export type Props = {
 	title?: string
 }
 
-export const Layout: NextPage<Props> = ({ children, title, description, id }) => {
+export const Layout: NextPage<Props> = ({ children, title, description }) => {
 	return (
 		<>
 			<Head>
@@ -17,8 +18,10 @@ export const Layout: NextPage<Props> = ({ children, title, description, id }) =>
 				<link rel='author' href={`Sergio Jurado`} />
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
-
+			<Header siteTitle='Logo Brand' />
 			<main className='container'>{children}</main>
+
+			<Footer title='Footer copy text© - ' />
 		</>
 	)
 }
