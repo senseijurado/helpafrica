@@ -1,13 +1,17 @@
-import { Layout } from '@/components'
+import { Header, Layout } from '@/components'
 import { NextPage } from 'next'
 
 export const HomePage: NextPage = () => {
 	return (
 		<Layout
-			title='Welcome to HelpAfrica'
-			description='HelpAfrica es una ONG que pretende ayudar y aportar su granito de arena solidaria'
+			title='Homepage Welcome'
+			// id={UUID(2, 2)}
+			description='Welcome to HelpAfrica ONG site'
 		>
-			{/* <Header /> */}
+			<Header siteNameBrand='Brand Name Logotype'>
+				<h1>Logotype</h1>
+			</Header>
+			<h1>Help Africa is development runtime!</h1>
 		</Layout>
 	)
 }
