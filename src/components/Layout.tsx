@@ -12,11 +12,8 @@ export const Layout: NextPage<Props> = ({ children, title, description }) => {
 	return (
 		<>
 			<Head>
-				<title>{title} | HELP AFRICA</title>
+				<title>{title} | HelpAfrica Charity ONG</title>
 				<meta name='description' content={description} />
-				<meta name='viewport' content='width=device-width, initial-scale=1' />
-				<link rel='author' href={`Sergio Jurado`} />
-				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<Header siteTitle='Logo Brand' />
 			<main className='container'>{children}</main>
