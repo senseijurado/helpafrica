@@ -1,5 +1,9 @@
 import { Layout } from '@/components'
-const ContactPage = () => {
+import { NextPage } from 'next'
+
+interface Props {}
+
+export const ContactPage: NextPage<Props> = ({}) => {
 	return (
 		<>
 			<Layout
@@ -7,125 +11,206 @@ const ContactPage = () => {
 				description='Encuentra cómo contactar con nuestra Asociación Help Africa.'
 			>
 				<section className='text-gray-600 body-font relative'>
-					<div className='container px-5 py-24 mx-auto'>
-						<div className='flex flex-col text-center w-full mb-12'>
-							<h1 className='sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900'>
-								Contact Us
-							</h1>
-							<p className='lg:w-2/3 mx-auto leading-relaxed text-base'>
-								Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-								gentrify.
-							</p>
-						</div>
-						<div className='lg:w-1/2 md:w-2/3 mx-auto'>
-							<div className='flex flex-wrap -m-2'>
-								<div className='p-2 w-1/2'>
-									<div className='relative'>
-										<label
-											htmlFor='name'
-											className='leading-7 text-sm text-gray-600'
-										>
-											Name
-										</label>
-										<input
-											type='text'
-											id='name'
-											name='name'
-											className='w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
-										/>
+					{/* TODO: COMPONENTS UI */}
+					<div className='contact-area pb-100px pt-100px'>
+						<div className='container'>
+							<div className='contact-map mb-10'>
+								<div id='mapid' data-aos='fade-up' data-aos-delay='200'>
+									<div className='mapouter'>
+										<div className='gmap_canvas'>
+											<iframe
+												id='gmap_canvas'
+												src='https://maps.google.com/maps?q=121%20King%20St%2C%20Melbourne%20VIC%203000%2C%20Australia&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed'
+											></iframe>
+											<a href='https://sites.google.com/view/maps-api-v2/mapv2'></a>
+										</div>
 									</div>
 								</div>
-								<div className='p-2 w-1/2'>
-									<div className='relative'>
-										<label
-											htmlFor='email'
-											className='leading-7 text-sm text-gray-600'
+							</div>
+							<div className='custom-row-2 row'>
+								<div className='col-lg-4 col-md-5 mb-lm-60px col-sm-12 col-xs-12 w-sm-100'>
+									<div className='contact-info-wrap'>
+										<h2
+											className='title'
+											data-aos='fade-up'
+											data-aos-delay='200'
 										>
-											Email
-										</label>
-										<input
-											type='email'
-											id='email'
-											name='email'
-											className='w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
-										/>
+											Contact Info
+										</h2>
+										<div
+											className='single-contact-info'
+											data-aos='fade-up'
+											data-aos-delay='200'
+										>
+											<div className='contact-info-inner'>
+												<span className='sub-title'>Phone:</span>
+											</div>
+											<div className='contact-info-dec'>
+												<p>
+													<a href='tel:+012345678102'>
+														+012 345 678 102
+													</a>
+												</p>
+												<p>
+													<a href='tel:+012345678102'>
+														+012 345 678 102
+													</a>
+												</p>
+											</div>
+										</div>
+										<div
+											className='single-contact-info'
+											data-aos='fade-up'
+											data-aos-delay='200'
+										>
+											<div className='contact-info-inner'>
+												<span className='sub-title'>Email:</span>
+											</div>
+											<div className='contact-info-dec'>
+												<p>
+													<a href='mailto://urname@email.com'>
+														urname@email.com
+													</a>
+												</p>
+												<p>
+													<a href='mailto://urwebsitenaem.com'>
+														urwebsitenaem.com
+													</a>
+												</p>
+											</div>
+										</div>
+										<div
+											className='single-contact-info'
+											data-aos='fade-up'
+											data-aos-delay='200'
+										>
+											<div className='contact-info-inner'>
+												<span className='sub-title'>
+													Address:
+												</span>
+											</div>
+											<div className='contact-info-dec'>
+												<p>Address goes here,</p>
+												<p>street, Crossroad 123.</p>
+											</div>
+										</div>
+										<div className='contact-social'>
+											<h3
+												className='title'
+												data-aos='fade-up'
+												data-aos-delay='200'
+											>
+												Follow Us
+											</h3>
+											<div
+												className='social-info'
+												data-aos='fade-up'
+												data-aos-delay='200'
+											>
+												<ul>
+													<li>
+														<a href='#'>
+															<i className='fa fa-facebook'></i>
+														</a>
+													</li>
+													<li>
+														<a href='#'>
+															<i className='fa fa-twitter'></i>
+														</a>
+													</li>
+													<li>
+														<a href='#'>
+															<i className='fa fa-youtube'></i>
+														</a>
+													</li>
+													<li>
+														<a href='#'>
+															<i className='fa fa-google'></i>
+														</a>
+													</li>
+													<li>
+														<a href='#'>
+															<i className='fa fa-instagram'></i>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
 									</div>
 								</div>
-								<div className='p-2 w-full'>
-									<div className='relative'>
-										<label
-											htmlFor='message'
-											className='leading-7 text-sm text-gray-600'
+								<div className='col-lg-8 col-md-7 col-sm-12 col-xs-12'>
+									<div className='contact-form'>
+										<div className='contact-title mb-30'>
+											<h2
+												className='title'
+												data-aos='fade-up'
+												data-aos-delay='200'
+											>
+												Get In Touch
+											</h2>
+										</div>
+										<form
+											className='contact-form-style'
+											id='contact-form'
+											action='https://htmldemo.net/chariv/chariv/assets/php/chariv-mail.php'
+											method='post'
 										>
-											Message
-										</label>
-										<textarea
-											id='message'
-											name='message'
-											className='w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out'
-										></textarea>
+											<div className='row'>
+												<div
+													className='col-lg-6'
+													data-aos='fade-up'
+													data-aos-delay='200'
+												>
+													<input
+														name='name'
+														placeholder='Name*'
+														type='text'
+													/>
+												</div>
+												<div
+													className='col-lg-6'
+													data-aos='fade-up'
+													data-aos-delay='200'
+												>
+													<input
+														name='email'
+														placeholder='Email*'
+														type='email'
+													/>
+												</div>
+												<div
+													className='col-lg-12'
+													data-aos='fade-up'
+													data-aos-delay='200'
+												>
+													<input
+														name='subject'
+														placeholder='Subject*'
+														type='text'
+													/>
+												</div>
+												<div
+													className='col-lg-12'
+													data-aos='fade-up'
+													data-aos-delay='200'
+												>
+													<textarea
+														name='message'
+														placeholder='Your Message*'
+													></textarea>
+													<button
+														className='btn btn-primary btn-hover-dark w-auto mt-20px'
+														data-aos='fade-up'
+														data-aos-delay='200'
+														type='submit'
+													>
+														SEND
+													</button>
+												</div>
+											</div>
+										</form>
+										<p className='form-messege'></p>
 									</div>
-								</div>
-								<div className='p-2 w-full'>
-									<button className='flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg'>
-										Button
-									</button>
-								</div>
-								<div className='p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center'>
-									<a className='text-indigo-500'>example@email.com</a>
-									<p className='leading-normal my-5'>
-										49 Smith St.
-										<br />
-										Saint Cloud, MN 56301
-									</p>
-									<span className='inline-flex'>
-										<a className='text-gray-500'></a>
-										<a className='ml-4 text-gray-500'>
-											<svg
-												fill='currentColor'
-												strokeLinecap='round'
-												strokeLinejoin='round'
-												strokeWidth='2'
-												className='w-5 h-5'
-												viewBox='0 0 24 24'
-											>
-												<path d='M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z'></path>
-											</svg>
-										</a>
-										<a className='ml-4 text-gray-500'>
-											<svg
-												fill='none'
-												stroke='currentColor'
-												strokeLinecap='round'
-												strokeLinejoin='round'
-												strokeWidth='2'
-												className='w-5 h-5'
-												viewBox='0 0 24 24'
-											>
-												<rect
-													width='20'
-													height='20'
-													x='2'
-													y='2'
-													rx='5'
-													ry='5'
-												></rect>
-												<path d='M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01'></path>
-											</svg>
-										</a>
-										<a className='ml-4 text-gray-500'>
-											<svg
-												fill='currentColor'
-												strokeLinecap='round'
-												strokeLinejoin='round'
-												strokeWidth='2'
-												className='w-5 h-5'
-												viewBox='0 0 24 24'
-											>
-												<path d='M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z'></path>
-											</svg>
-										</a>
-									</span>
 								</div>
 							</div>
 						</div>
