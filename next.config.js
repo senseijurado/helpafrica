@@ -8,12 +8,12 @@ const nextConfig = {
 		formats: ['image/avif', 'image/webp'],
 		domains: [''],
 	},
-	swcMinify: false,
+	swcMinify: true,
 	distDir: 'dist',
-	i18n: {
-		defaultLocale: 'en',
-		locales: ['en'],
-	},
+	// i18n: {
+	// 	defaultLocale: 'en',
+	// 	locales: ['en'],
+	// },
 }
 
 module.exports = nextConfig

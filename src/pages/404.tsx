@@ -18,15 +18,24 @@ export const NotFoundPage: FC<Props> = ({
 		<>
 			<section>
 				<div className='mx-auto max-w-1/2'>
-					<h2 className=''>{titleBody}</h2>
+					<h2 className=''>{titleBody ? titleBody : '404'}</h2>
 
 					<h3 className=''>
-						Oops! <span>{subtitleBody}</span>
+						Oops!{' '}
+						<span>
+							{subtitleBody
+								? subtitleBody
+								: 'This page not found, please go back homepage'}
+						</span>
 					</h3>
 
-					<p className='text-md'>{descriptionBody}</p>
+					<p className='text-md'>
+						{descriptionBody
+							? descriptionBody
+							: 'The page you try to view does not exist'}
+					</p>
 					<Link href={'/'} className='' about='Back to homepage'>
-						{backText}
+						{backText ? backText : 'Back to Homepage'}
 					</Link>
 				</div>
 			</section>
