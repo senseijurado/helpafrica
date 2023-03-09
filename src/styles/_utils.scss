@@ -1,1 +1,80 @@
-// UTILITIES PROPIAS:
+@import "./_colours";
+
+$brandColours: (
+    primary-1: #f2bcba,
+    primary-2: #e88a87,
+    primary-3: #e0615c,
+    primary-4: #ce2d27,
+    primary-5: #8d1f1b,
+    primary-6: #5e1412,
+    primary-7: #330b0a,
+    secondary-1: #b9c3f3,
+    secondary-2: #8596ea,
+    secondary-3: #5970e3,
+    secondary-4: #233fcd,
+    secondary-5: #182c90,
+    secondary-6: #101e60,
+    secondary-7: #091034,
+    accent-1: #e7ebc2,
+    accent-2: #d4db94,
+    accent-3: #c5cf6e,
+    accent-4: #abb83d,
+    accent-5: #767e2a,
+    accent-6: #4f541c,
+    accent-7: #2b2e0f,
+    cyan-1: #c2d5eb,
+    cyan-2: #94b5db,
+    cyan-3: #6e9bcf,
+    cyan-4: #3d76b8,
+    cyan-5: #2a517e,
+    cyan-6: #1c3654,
+    cyan-7: #0f1e2e,
+    violet-1: #ccc2eb,
+    violet-2: #a694db,
+    violet-3: #866ecf,
+    violet-4: #5c3db8,
+    violet-5: #3f2a7e,
+    violet-6: #2a1c54,
+    violet-7: #170f2e,
+    neutral-1: #f2f2f2,
+    neutral-2: #b8b8b8,
+    neutral-3: #9e9e9e,
+    neutral-4: #7a7a7a,
+    neutral-5: #545454,
+    neutral-6: #383838,
+    neutral-7: #222325,
+);
+
+@each $tone, $value in $brandColours {
+    .bg-#{$tone} {
+        background-color: #{$value};
+    }
+
+    .hover\:bg-#{$tone} {
+        &:hover {
+            background-color: $value;
+        }
+    }
+
+    .focus\:bg-#{$tone} {
+        &:focus-visible {
+            background-color: $value;
+        }
+    }
+
+    .text-#{$tone} {
+        color: $value;
+    }
+
+    .hover\:text-#{$tone} {
+        &:hover {
+            color: $value;
+        }
+    }
+
+    .focus\:text-#{$tone} {
+        &:focus-visible {
+            color: $value;
+        }
+    }
+}

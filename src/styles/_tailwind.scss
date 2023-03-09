@@ -1,0 +1,11 @@
+// TailwindCSS directives:
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layout components {
+    .btn {
+        @apply appearance-none;
+        @apply p-5;
+    }
+}
